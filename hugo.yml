@@ -67,19 +67,7 @@ params:
   
   # Homepage: Home Info + Latest Posts
   profileMode:
-    enabled: true           # ← ADD THIS
-    title: "Pinaki Bhattacharyya"
-    subtitle: "Quant Risk Researcher"
-    imageUrl: "/favicon.ico"  # Replace with /images/profile.jpg (200x200px)
-    imageWidth: 200
-    imageHeight: 200
-    imageTitle: "Profile Photo"
-    buttons:
-      - name: "📚 Read Posts"
-        url: "/posts/"
-      - name: "📖 Quant Book"
-        url: "/series/"
-
+    enabled: false
   homeInfoParams:
     Title: "Welcome to Quant at Risk 👋"
     Content: "Stochastic Processes • Mathematical Finance • Bessel Modeling • Risk Analytics"
