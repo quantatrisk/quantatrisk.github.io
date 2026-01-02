@@ -1,12 +1,13 @@
 # https://quantatrisk.github.io/
 baseURL: "https://quantatrisk.github.io/"
 languageCode: "en-us"
-outputFormats:utputs:itle: "Quant at Risk"
-outputFormats:utputs:heme: "PaperMod"
+title: "Quant at Risk"
+theme: "PaperMod"
 
 # Book-ready pagination
-outputFormats:utputs:aginate: 10
-outputFormats:utputs:aginatePath: "page"
+pagination:
+  pagerSize: 10
+  path: "page"
 
 # Essential features
 enableGitInfo: true
@@ -16,26 +17,10 @@ buildFuture: false
 buildExpired: false
 hasCJKLanguage: false
 defaultContentLanguage: "en"
-outputFormats:utputs:luralizeListTitles: false
+pluralizeListTitles: false
 
-
-  
-  # Branding
-  label:
-    text: "Quant"
-    icon: "/favicon.ico"
-    iconHeight: 35
-  
- # Latest posts config
-  ShowReadingTime: true
-  ShowWordCount: true
-  ShowPostNavLinks: true
-  ShowBreadCrumbs: true
-  UseHugoToc: true
-
-
-# Math/LaTeX (Katex) + Syntax
-outputFormats:arkup:
+# Math/LaTeX + Syntax (single markup section)
+markup:
   goldmark:
     renderer:
       unsafe: true
@@ -43,32 +28,27 @@ outputFormats:arkup:
       definitionList: true
   highlight:
     noClasses: false
+    guessSyntax: true
+    lineNos: true
+    lineNumbersInTable: true
+    style: "github-dark"
   katex:
     enable: true
     noInlineSVG: false
 
-# Sitemap & canonical
-outputs:
-  home: ["HTML", "RSS", "JSON"]
-outputFormats:
-  disqusSitemap:
-    mediatype: "application/xml"
-    baseName: "disqus"
-
-# PaperMod Params (All Features)
-
-# Homepage: Home Info + Latest Posts (Book Landing)
+# PaperMod Params (Homepage + Features)
 params:
   env: production
   title: "Quant at Risk"
   description: "Stochastic Processes • Mathematical Finance • Quantitative Risk Modeling"
   keywords: ["stochastic", "finance", "quant", "math", "Bessel", "Brownian"]
   author: "Pinaki Bhattacharyya"
-  images: ["/images/quant-og.jpg"]
+  images: ["/favicon.ico"]
   
   DateFormat: "January 2, 2006"
   defaultTheme: auto
   disableThemeToggle: true
+  
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
@@ -79,53 +59,44 @@ params:
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
-  comments: false  # Add Disqus/Giscus later
+  comments: false
   hidemeta: false
   hideSummary: false
-  showtoc: true    # Math posts TOC
+  showtoc: true
   tocopen: false
-
-  # Disable profile mode (enables home info + posts)
+  
+  # Homepage: Home Info + Latest Posts
   profileMode:
     enabled: false
-  
-  # Hero section
   homeInfoParams:
     Title: "Welcome to Quant at Risk 👋"
     Content: "Stochastic Processes • Mathematical Finance • Bessel Modeling • Risk Analytics"
-    imageUrl: "/images/quant-hero.jpg"
- 
+    imageUrl: "/favicon.ico"
   
+  # Branding (moved under params)
+  label:
+    text: "Quant"
+    icon: "/favicon.ico"
+    iconHeight: 35
   
-  # Cover images per post
-  cover:
-    hiddenInList: false
-    hiddenInSingle: false
-  
-  # Book series navigation
+  # Book editing
   editPost:
     URL: "https://github.com/quantatrisk/quantatrisk.github.io/tree/main/content/posts"
     Text: "Edit on GitHub"
     appendFilePath: true
   
-  # Search (math/technical content)
+  # Search
   fuseOpts:
     isCaseSensitive: false
-    shouldSort: true
-    location: 0
-    distance: 1000
     threshold: 0.4
-    minMatchCharLength: 2
     limit: 10
-    keys: ["title", "permalink", "summary", "content", "tags", "categories"]
+    keys: ["title", "summary", "content"]
   
-  # Assets
   assets:
-    disableHLJS: false  # Syntax highlighting
+    disableHLJS: false
     favicon: "/favicon.ico"
 
-  
-  # Social (professional)
+  # Social
   socialIcons:
     - name: "github"
       url: "https://github.com/quantatrisk"
@@ -134,16 +105,14 @@ params:
     - name: "twitter-x"
       url: "https://twitter.com/quantatrisk"
 
-# Analytics (empty: no tracking errors)
+# Clean analytics/verification
 analytics:
   google: ''
-
-# SEO Verification (empty)
 verification:
   google: ''
 
 # Main Menu (Book Structure)
-outputFormats:enu:
+menu:
   main:
     - identifier: "posts"
       name: "📚 Posts"
@@ -161,15 +130,6 @@ outputFormats:enu:
       name: "🔖 Tags"
       url: "/tags/"
       weight: 40
-
-# Syntax highlighting (Chroma - math/code)
-markup:
-  highlight:
-    noClasses: false
-    guessSyntax: true
-    lineNos: true
-    lineNumbersInTable: true
-    style: "github-dark"
 
 # Taxonomies (Book organization)
 taxonomies:
