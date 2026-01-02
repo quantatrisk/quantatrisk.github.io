@@ -123,13 +123,7 @@ params:
   assets:
     disableHLJS: false  # Syntax highlighting
     favicon: "/favicon.ico"
-  
-  # Sidebar label (Quant branding)
-  label:
-    text: "Quant"
-    icon: /favicon.ico
-    iconHeight: 35
-  
+
   
   # Social (professional)
   socialIcons:
