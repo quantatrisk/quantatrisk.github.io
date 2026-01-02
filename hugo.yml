@@ -18,19 +18,18 @@ hasCJKLanguage: false
 defaultContentLanguage: "en"
 pluralizeListTitles: false
 
-# Math/LaTeX (Katex)
-markup:
+# Math/LaTeX (Katex) + Syntax
+[markup]
   goldmark:
     renderer:
       unsafe: true
+    extensions:
+      definitionList: true
   highlight:
     noClasses: false
   katex:
     enable: true
     noInlineSVG: false
-  goldmark:
-    extensions:
-      definitionList: true
 
 # Sitemap & canonical
 [outputs]
