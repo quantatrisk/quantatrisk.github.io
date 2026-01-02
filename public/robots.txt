@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://quantqtrisk.github.io/sitemap.xml
