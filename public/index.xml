@@ -2,29 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Quant at Risk</title>
-    <link>http://localhost:1313/</link>
+    <link>https://quantatrisk.github.io/</link>
     <description>Recent content on Quant at Risk</description>
     <image>
       <title>Quant at Risk</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://quantatrisk.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://quantatrisk.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.154.0</generator>
-    <language>en</language>
-    <lastBuildDate>Fri, 02 Jan 2026 05:05:50 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>New2</title>
-      <link>http://localhost:1313/posts/new2/</link>
-      <pubDate>Fri, 02 Jan 2026 05:05:50 +0000</pubDate>
-      <guid>http://localhost:1313/posts/new2/</guid>
-      <description></description>
-    </item>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 15 Sep 2020 11:30:03 +0000</lastBuildDate>
+    <atom:link href="https://quantatrisk.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My 1st post</title>
-      <link>http://localhost:1313/posts/new/</link>
+      <link>https://quantatrisk.github.io/posts/new/</link>
       <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
-      <guid>http://localhost:1313/posts/new/</guid>
+      <guid>https://quantatrisk.github.io/posts/new/</guid>
       <description>Desc Text.</description>
     </item>
   </channel>
