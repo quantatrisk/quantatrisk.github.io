@@ -1,12 +1,12 @@
 # https://quantatrisk.github.io/
 baseURL: "https://quantatrisk.github.io/"
 languageCode: "en-us"
-title: "Quant at Risk"
-theme: "PaperMod"
+outputFormats:utputs:itle: "Quant at Risk"
+outputFormats:utputs:heme: "PaperMod"
 
 # Book-ready pagination
-paginate: 10
-paginatePath: "page"
+outputFormats:utputs:aginate: 10
+outputFormats:utputs:aginatePath: "page"
 
 # Essential features
 enableGitInfo: true
@@ -16,10 +16,10 @@ buildFuture: false
 buildExpired: false
 hasCJKLanguage: false
 defaultContentLanguage: "en"
-pluralizeListTitles: false
+outputFormats:utputs:luralizeListTitles: false
 
 # Math/LaTeX (Katex) + Syntax
-[markup]
+outputFormats:arkup:
   goldmark:
     renderer:
       unsafe: true
@@ -32,14 +32,15 @@ pluralizeListTitles: false
     noInlineSVG: false
 
 # Sitemap & canonical
-[outputs]
-  home = ["HTML", "RSS", "JSON", "disqus"]
-[outputFormats.disqusSitemap]
-  mediatype = "application/xml"
-  baseName = "disqus"
+outputs:
+  home: ["HTML", "RSS", "JSON"]
+outputFormats:
+  disqusSitemap:
+    mediatype: "application/xml"
+    baseName: "disqus"
 
 # PaperMod Params (All Features)
-[params]
+params:
   env: production
   
   title: "Quant at Risk"
@@ -114,16 +115,16 @@ pluralizeListTitles: false
     - name: "twitter-x"
       url: "https://twitter.com/quantatrisk"
 
-# Analytics (empty = no tracking errors)
-[analytics]
+# Analytics (empty: no tracking errors)
+analytics:
   google: ''
 
 # SEO Verification (empty)
-[verification]
+verification:
   google: ''
 
 # Main Menu (Book Structure)
-menu:
+outputFormats:enu:
   main:
     - identifier: "posts"
       name: "📚 Posts"
@@ -143,7 +144,7 @@ menu:
       weight: 40
 
 # Syntax highlighting (Chroma - math/code)
-[markup]
+markup:
   highlight:
     noClasses: false
     guessSyntax: true
@@ -152,7 +153,7 @@ menu:
     style: "github-dark"
 
 # Taxonomies (Book organization)
-[taxonomies]
+taxonomies:
   category: "categories"
   tag: "tags"
   series: "series"

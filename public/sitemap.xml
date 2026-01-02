@@ -2,21 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://quantatrisk.github.io/tags/first/</loc>
-    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-01-02T10:37:42+05:30</lastmod>
   </url><url>
-    <loc>https://quantatrisk.github.io/posts/new/</loc>
-    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
+    <loc>http://localhost:1313/posts/new2/</loc>
+    <lastmod>2026-01-02T10:37:42+05:30</lastmod>
   </url><url>
-    <loc>https://quantatrisk.github.io/posts/</loc>
-    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2026-01-02T10:37:42+05:30</lastmod>
   </url><url>
-    <loc>https://quantatrisk.github.io/</loc>
-    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
+    <loc>http://localhost:1313/tags/first/</loc>
+    <lastmod>2026-01-02T09:56:39+05:30</lastmod>
   </url><url>
-    <loc>https://quantatrisk.github.io/tags/</loc>
-    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
+    <loc>http://localhost:1313/posts/new/</loc>
+    <lastmod>2026-01-02T09:56:39+05:30</lastmod>
   </url><url>
-    <loc>https://quantatrisk.github.io/categories/</loc>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-01-02T09:56:39+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/series/</loc>
   </url>
 </urlset>
