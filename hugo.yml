@@ -18,6 +18,32 @@ hasCJKLanguage: false
 defaultContentLanguage: "en"
 outputFormats:utputs:luralizeListTitles: false
 
+# Homepage: Home Info + Latest Posts (Book Landing)
+params:
+  # Disable profile mode (enables home info + posts)
+  profileMode:
+    enabled: false
+  
+  # Hero section
+  homeInfoParams:
+    Title: "Welcome to Quant at Risk 👋"
+    Content: "Stochastic Processes • Mathematical Finance • Bessel Modeling • Risk Analytics"
+    imageUrl: "/images/quant-hero.jpg"
+  
+  # Branding
+  label:
+    text: "Quant"
+    icon: "/favicon.ico"
+    iconHeight: 35
+  
+ # Latest posts config
+  ShowReadingTime: true
+  ShowWordCount: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  UseHugoToc: true
+
+
 # Math/LaTeX (Katex) + Syntax
 outputFormats:arkup:
   goldmark:
@@ -46,7 +72,7 @@ params:
   title: "Quant at Risk"
   description: "Stochastic Processes • Mathematical Finance • Quantitative Risk Modeling"
   keywords: ["stochastic", "finance", "quant", "math", "Bessel", "Brownian"]
-  author: "Quant Risk Researcher"
+  author: "PinakiBhattacharyya"
   images: ["/images/quant-og.jpg"]
   
   DateFormat: "January 2, 2006"
@@ -101,10 +127,6 @@ params:
     icon: /favicon.ico
     iconHeight: 35
   
-  # Home info (Book teaser)
-  homeInfoParams:
-    Title: "Stochastic Processes"
-    Content: "Mathematical Finance • Bessel Processes • Risk Modeling • Quant Book Series"
   
   # Social (professional)
   socialIcons:
