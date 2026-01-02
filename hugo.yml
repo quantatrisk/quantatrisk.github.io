@@ -1,143 +1,159 @@
+# https://quantatrisk.github.io/
 baseURL: "https://quantatrisk.github.io/"
-title: Quant at Risk
 languageCode: "en-us"
-defaultContentLanguage: "en"
-theme:  PaperMod 
+title: "Quant at Risk"
+theme: "PaperMod"
 
-pagination:
-  disableAliases: false
-  pagerSize: 5
-  path: page
+# Book-ready pagination
+paginate: 10
+paginatePath: "page"
 
+# Essential features
+enableGitInfo: true
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
+hasCJKLanguage: false
+defaultContentLanguage: "en"
+pluralizeListTitles: false
 
-minify:
-  disableXML: true
-  minifyOutput: true
+# Math/LaTeX (Katex)
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+  katex:
+    enable: true
+    noInlineSVG: false
+  goldmark:
+    extensions:
+      definitionList: true
 
-params:
-  env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
-  keywords: [Blog, Portfolio, PaperMod]
-  author: Me
-  # author: ["Me", "You"] # multiple authors
-  images: ["<link or path of image for opengraph, twitter-cards>"]
+# Sitemap & canonical
+[outputs]
+  home = ["HTML", "RSS", "JSON", "disqus"]
+[outputFormats.disqusSitemap]
+  mediatype = "application/xml"
+  baseName = "disqus"
+
+# PaperMod Params (All Features)
+[params]
+  env: production
+  
+  title: "Quant at Risk"
+  description: "Stochastic Processes • Mathematical Finance • Quantitative Risk Modeling"
+  keywords: ["stochastic", "finance", "quant", "math", "Bessel", "Brownian"]
+  author: "Quant Risk Researcher"
+  images: ["/images/quant-og.jpg"]
+  
   DateFormat: "January 2, 2006"
-  defaultTheme: auto # dark, light
+  defaultTheme: auto
   disableThemeToggle: false
-
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
+  ShowCodeCopyButtons: true
   ShowWordCount: true
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
-  comments: false
+  comments: false  # Add Disqus/Giscus later
   hidemeta: false
   hideSummary: false
-  showtoc: false
+  showtoc: true    # Math posts TOC
   tocopen: false
-
-  assets:
-    # disableHLJS: true # to disable highlight.js
-    # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
-
-  label:
-    text: "Home"
-    icon: /apple-touch-icon.png
-    iconHeight: 35
-
-  # profile-mode
-  profileMode:
-    enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
-    imageWidth: 120
-    imageHeight: 120
-    imageTitle: my image
-    buttons:
-      - name: Posts
-        url: posts
-      - name: Tags
-        url: tags
-
-  # home-info mode
-  homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
-
-  socialIcons:
-    - name: x
-      url: "https://x.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
-    - name: github
-      url: "https://github.com/"
-
-  analytics:
-    google:
-      SiteVerificationTag: "XYZabc"
-    bing:
-      SiteVerificationTag: "XYZabc"
-    yandex:
-      SiteVerificationTag: "XYZabc"
-
+  
+  # Cover images per post
   cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
-
+    hiddenInList: false
+    hiddenInSingle: false
+  
+  # Book series navigation
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
-
-  # for search
-  # https://fusejs.io/api/options.html
+    URL: "https://github.com/quantatrisk/quantatrisk.github.io/tree/main/content/posts"
+    Text: "Edit on GitHub"
+    appendFilePath: true
+  
+  # Search (math/technical content)
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
     location: 0
     distance: 1000
     threshold: 0.4
-    minMatchCharLength: 0
-    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
-    keys: ["title", "permalink", "summary", "content"]
+    minMatchCharLength: 2
+    limit: 10
+    keys: ["title", "permalink", "summary", "content", "tags", "categories"]
+  
+  # Assets
+  assets:
+    disableHLJS: false  # Syntax highlighting
+    favicon: "/favicon.ico"
+  
+  # Sidebar label (Quant branding)
+  label:
+    text: "Quant"
+    icon: /favicon.ico
+    iconHeight: 35
+  
+  # Home info (Book teaser)
+  homeInfoParams:
+    Title: "Stochastic Processes"
+    Content: "Mathematical Finance • Bessel Processes • Risk Modeling • Quant Book Series"
+  
+  # Social (professional)
+  socialIcons:
+    - name: "github"
+      url: "https://github.com/quantatrisk"
+    - name: "linkedin"
+      url: "https://linkedin.com/in/quantatrisk"
+    - name: "twitter-x"
+      url: "https://twitter.com/quantatrisk"
+
+# Analytics (empty = no tracking errors)
+[analytics]
+  google: ''
+
+# SEO Verification (empty)
+[verification]
+  google: ''
+
+# Main Menu (Book Structure)
 menu:
   main:
-    - identifier: categories
-      name: categories
-      url: /categories/
+    - identifier: "posts"
+      name: "📚 Posts"
+      url: "/posts/"
       weight: 10
-    - identifier: tags
-      name: tags
-      url: /tags/
+    - identifier: "series"
+      name: "📖 Book Series"
+      url: "/series/"
       weight: 20
-    - identifier: example
-      name: example.org
-      url: https://example.org
+    - identifier: "categories"
+      name: "🏷️ Categories"
+      url: "/categories/"
       weight: 30
-# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
-pygmentsUseClasses: true
-markup:
+    - identifier: "tags"
+      name: "🔖 Tags"
+      url: "/tags/"
+      weight: 40
+
+# Syntax highlighting (Chroma - math/code)
+[markup]
   highlight:
     noClasses: false
-    # anchorLineNos: true
-    # codeFences: true
-    # guessSyntax: true
-    # lineNos: true
-    # style: monokai
+    guessSyntax: true
+    lineNos: true
+    lineNumbersInTable: true
+    style: "github-dark"
+
+# Taxonomies (Book organization)
+[taxonomies]
+  category: "categories"
+  tag: "tags"
+  series: "series"
