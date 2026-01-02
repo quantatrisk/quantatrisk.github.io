@@ -18,17 +18,7 @@ hasCJKLanguage: false
 defaultContentLanguage: "en"
 outputFormats:utputs:luralizeListTitles: false
 
-# Homepage: Home Info + Latest Posts (Book Landing)
-params:
-  # Disable profile mode (enables home info + posts)
-  profileMode:
-    enabled: false
-  
-  # Hero section
-  homeInfoParams:
-    Title: "Welcome to Quant at Risk 👋"
-    Content: "Stochastic Processes • Mathematical Finance • Bessel Modeling • Risk Analytics"
-    imageUrl: "/images/quant-hero.jpg"
+
   
   # Branding
   label:
@@ -66,13 +56,14 @@ outputFormats:
     baseName: "disqus"
 
 # PaperMod Params (All Features)
+
+# Homepage: Home Info + Latest Posts (Book Landing)
 params:
   env: production
-  
   title: "Quant at Risk"
   description: "Stochastic Processes • Mathematical Finance • Quantitative Risk Modeling"
   keywords: ["stochastic", "finance", "quant", "math", "Bessel", "Brownian"]
-  author: "PinakiBhattacharyya"
+  author: "Pinaki Bhattacharyya"
   images: ["/images/quant-og.jpg"]
   
   DateFormat: "January 2, 2006"
@@ -93,6 +84,18 @@ params:
   hideSummary: false
   showtoc: true    # Math posts TOC
   tocopen: false
+
+  # Disable profile mode (enables home info + posts)
+  profileMode:
+    enabled: false
+  
+  # Hero section
+  homeInfoParams:
+    Title: "Welcome to Quant at Risk 👋"
+    Content: "Stochastic Processes • Mathematical Finance • Bessel Modeling • Risk Analytics"
+    imageUrl: "/images/quant-hero.jpg"
+ 
+  
   
   # Cover images per post
   cover:
