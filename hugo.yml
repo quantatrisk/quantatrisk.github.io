@@ -48,6 +48,9 @@ params:
   DateFormat: "January 2, 2006"
   defaultTheme: auto
   disableThemeToggle: true
+
+  math: true
+  mathEngine: "katex"
   
   ShowReadingTime: true
   ShowShareButtons: true

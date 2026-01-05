@@ -9,7 +9,18 @@ toc: true
 images: ["/images/bessel-cover.jpg"]
 ---
 
+Inline: ( mathcal{L} f(x) = mu(x) f'(x) + \tfrac12 sigma^2(x) f''(x) ).
 
+Block:
+[
+dX_t = mu(X_t, t),dt + sigma(X_t, t),dW_t.
+]
+
+[
+\begin{aligned}
+V_t + \tfrac12 sigma^2 S^2 V_{SS} + r S V_S - r V &= 0 \tag{1}
+end{aligned}
+]
 
 The modern mathematical foundation for understanding continuous-time phenomena in quantitative finance rests upon a remarkable trinity of interconnected theories: the theory of Itô diffusion processes, the theory of partial differential equations (PDEs), and probabilistic methods for solving PDEs. At the heart of this trinity lies a deceptively elegant mathematical object: the infinitesimal generator of a stochastic diffusion process. This introduction surveys the conceptual landscape, historical development, and practical significance of this powerful framework, which has transformed mathematical finance and continues to underpin pricing, risk management, and portfolio optimization across the industry.<details markdown='1'><summary>Expand / Collapse</summary>
 
