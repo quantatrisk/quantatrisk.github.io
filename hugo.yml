@@ -67,7 +67,9 @@ params:
   
   # Homepage: Home Info + Latest Posts
   profileMode:
-    enabled: false
+    enabled: false 
+  sidebar:
+    enabled: true
   homeInfoParams:
     Title: "Welcome to Quant at Risk 👋"
     Content: "Stochastic Processes • Mathematical Finance • Bessel Modeling • Risk Analytics"
@@ -75,7 +77,7 @@ params:
   
   # Branding (moved under params)
   label:
-    text: "Quant"
+    text: "Quant at Risk"
     icon: "/favicon.ico"
     iconHeight: 35
   

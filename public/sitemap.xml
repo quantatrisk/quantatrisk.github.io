@@ -1,1 +1,45 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://quantatrisk.github.io/tags/first/</loc><lastmod>2026-01-02T09:56:39+05:30</lastmod></url><url><loc>https://quantatrisk.github.io/posts/new/</loc><lastmod>2026-01-02T09:56:39+05:30</lastmod></url><url><loc>https://quantatrisk.github.io/posts/</loc><lastmod>2026-01-02T09:56:39+05:30</lastmod></url><url><loc>https://quantatrisk.github.io/</loc><lastmod>2026-01-02T12:16:49+05:30</lastmod></url><url><loc>https://quantatrisk.github.io/tags/</loc><lastmod>2026-01-02T09:56:39+05:30</lastmod></url><url><loc>https://quantatrisk.github.io/archives/</loc><lastmod>2026-01-02T12:16:49+05:30</lastmod></url><url><loc>https://quantatrisk.github.io/categories/</loc></url><url><loc>https://quantatrisk.github.io/series/</loc></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/posts/bessel/</loc>
+    <lastmod>2026-01-03T01:24:58+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2026-01-03T01:24:58+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/credit-risk/</loc>
+    <lastmod>2026-01-03T01:24:58+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2026-01-03T01:24:58+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-01-03T01:24:58+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/series/quant-book/</loc>
+    <lastmod>2026-01-03T01:24:58+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/series/</loc>
+    <lastmod>2026-01-03T01:24:58+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/stochastic/</loc>
+    <lastmod>2026-01-03T01:24:58+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/first/</loc>
+    <lastmod>2026-01-02T09:56:39+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/new/</loc>
+    <lastmod>2026-01-02T09:56:39+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-01-02T09:56:39+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/archives/</loc>
+    <lastmod>2026-01-02T12:16:49+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/bessel-processes/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/generator-of-an-ito-diffusion/</loc>
+  </url>
+</urlset>

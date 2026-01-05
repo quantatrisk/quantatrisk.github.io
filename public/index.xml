@@ -1,1 +1,50 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Quant at Risk</title><link>https://quantatrisk.github.io/</link><description>Recent content on Quant at Risk</description><image><title>Quant at Risk</title><url>https://quantatrisk.github.io/favicon.ico</url><link>https://quantatrisk.github.io/favicon.ico</link></image><generator>Hugo -- 0.154.0</generator><language>en-us</language><lastBuildDate>Fri, 02 Jan 2026 12:16:49 +0530</lastBuildDate><atom:link href="https://quantatrisk.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>My 1st post</title><link>https://quantatrisk.github.io/posts/new/</link><pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate><guid>https://quantatrisk.github.io/posts/new/</guid><description>Desc Text.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Quant at Risk</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Quant at Risk</description>
+    <image>
+      <title>Quant at Risk</title>
+      <url>http://localhost:1313/favicon.ico</url>
+      <link>http://localhost:1313/favicon.ico</link>
+    </image>
+    <generator>Hugo -- 0.154.1</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 03 Jan 2026 01:24:58 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bessel Processes in Credit Risk</title>
+      <link>http://localhost:1313/posts/bessel/</link>
+      <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/bessel/</guid>
+      <description>&lt;p&gt;Content starts&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My 1st post</title>
+      <link>http://localhost:1313/posts/new/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      <guid>http://localhost:1313/posts/new/</guid>
+      <description>Desc Text.</description>
+    </item>
+    <item>
+      <title>Bessel Processes in Credit Risk</title>
+      <link>http://localhost:1313/posts/bessel-processes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/bessel-processes/</guid>
+      <description>&lt;p&gt;Content starts&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Generator of an Itô Diffusion</title>
+      <link>http://localhost:1313/posts/generator-of-an-ito-diffusion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/generator-of-an-ito-diffusion/</guid>
+      <description>&lt;p&gt;The modern mathematical foundation for understanding continuous-time phenomena in quantitative finance rests upon a remarkable trinity of interconnected theories: the theory of Itô diffusion processes, the theory of partial differential equations (PDEs), and probabilistic methods for solving PDEs. At the heart of this tr&lt;details markdown=&#39;1&#39;&gt;&lt;summary&gt;Expand / Collapse&lt;/summary&gt;&lt;/p&gt;
+&lt;/details&gt;inity lies a deceptively elegant mathematical object: the infinitesimal generator of a stochastic diffusion process. This introduction surveys the conceptual landscape, historical development, and practical significance of this powerful framework, which has transformed mathematical finance and continues to underpin pricing, risk management, and portfolio optimization across the industry. The generator serves as the fundamental bridge connecting stochastic differential equations (SDEs) to PDEs and enables the celebrated Feynman-Kac formula—a result that allows one to solve deterministic PDEs through probabilistic simulation, and conversely, to compute expectations of random processes through deterministic methods. Understanding these interconnections is essential for anyone serious about quantitative finance, as they illuminate why certain financial models work the way they do and provide the mathematical machinery for designing and analyzing new models.
+&lt;ol&gt;
+&lt;li&gt;Understanding the Infinitesimal Generator&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;1.1 Historical Context and Foundational Development&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,1 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Categories on Quant at Risk</title><link>https://quantatrisk.github.io/categories/</link><description>Recent content in Categories on Quant at Risk</description><image><title>Quant at Risk</title><url>https://quantatrisk.github.io/favicon.ico</url><link>https://quantatrisk.github.io/favicon.ico</link></image><generator>Hugo -- 0.154.0</generator><language>en-us</language><atom:link href="https://quantatrisk.github.io/categories/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Categories on Quant at Risk</title>
+    <link>http://localhost:1313/categories/</link>
+    <description>Recent content in Categories on Quant at Risk</description>
+    <image>
+      <title>Quant at Risk</title>
+      <url>http://localhost:1313/favicon.ico</url>
+      <link>http://localhost:1313/favicon.ico</link>
+    </image>
+    <generator>Hugo -- 0.154.1</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 03 Jan 2026 01:24:58 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Credit-Risk</title>
+      <link>http://localhost:1313/categories/credit-risk/</link>
+      <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/credit-risk/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Stochastic</title>
+      <link>http://localhost:1313/categories/stochastic/</link>
+      <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/stochastic/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
