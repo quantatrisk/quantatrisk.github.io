@@ -11,45 +11,14 @@
     </image>
     <generator>Hugo -- 0.154.1</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 06 Jan 2026 02:08:44 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 07 Jan 2026 01:18:12 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Bessel Processes in Credit Risk</title>
-      <link>http://localhost:1313/posts/bessel/</link>
-      <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/bessel/</guid>
-      <description>&lt;p&gt;Content starts&amp;hellip;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>My 1st post</title>
-      <link>http://localhost:1313/posts/new/</link>
-      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
-      <guid>http://localhost:1313/posts/new/</guid>
-      <description>Desc Text.</description>
-    </item>
-    <item>
-      <title>Bessel Processes in Credit Risk</title>
-      <link>http://localhost:1313/posts/bessel-processes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/bessel-processes/</guid>
-      <description>&lt;p&gt;Content starts&amp;hellip;&lt;/p&gt;</description>
-    </item>
     <item>
       <title>The Generator of an Itô Diffusion</title>
       <link>http://localhost:1313/posts/generator-of-an-ito-diffusion/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 07 Jan 2026 00:00:00 +0530</pubDate>
       <guid>http://localhost:1313/posts/generator-of-an-ito-diffusion/</guid>
-      <description>&lt;p&gt;Inline: ( mathcal{L} f(x) = mu(x) f&amp;rsquo;(x) + \tfrac12 sigma^2(x) f&amp;rsquo;&amp;rsquo;(x) ).&lt;/p&gt;
-&lt;p&gt;Block:
-[
-dX_t = mu(X_t, t),dt + sigma(X_t, t),dW_t.
-]&lt;/p&gt;
-&lt;p&gt;[
-\begin{aligned}
-V_t + \tfrac12 sigma^2 S^2 V_{SS} + r S V_S - r V &amp;amp;= 0 \tag{1}
-end{aligned}
-]&lt;/p&gt;
-&lt;p&gt;The modern mathematical foundation for understanding continuous-time phenomena in quantitative finance rests upon a remarkable trinity of interconnected theories: the theory of Itô diffusion processes, the theory of partial differential equations (PDEs), and probabilistic methods for solving PDEs. At the heart of this trinity lies a deceptively elegant mathematical object: the infinitesimal generator of a stochastic diffusion process. This introduction surveys the conceptual landscape, historical development, and practical significance of this powerful framework, which has transformed mathematical finance and continues to underpin pricing, risk management, and portfolio optimization across the industry.&lt;details markdown=&#39;1&#39;&gt;&lt;summary&gt;Expand / Collapse&lt;/summary&gt;&lt;/p&gt;</description>
+      <description>Master the infinitesimal generator of Itô diffusions—the bridge connecting SDEs, PDEs, and Feynman-Kac formula. From Kolmogorov equations to Black-Scholes PDEs and risk-neutral pricing.</description>
     </item>
   </channel>
 </rss>

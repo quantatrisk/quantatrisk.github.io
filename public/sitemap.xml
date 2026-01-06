@@ -2,46 +2,67 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/bessel/</loc>
-    <lastmod>2026-01-03T01:24:58+05:30</lastmod>
+    <loc>http://localhost:1313/tags/black-scholes-pde/</loc>
+    <lastmod>2026-01-07T01:18:12+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-01-06T02:08:44+05:30</lastmod>
+    <loc>http://localhost:1313/tags/dynkins-formula/</loc>
+    <lastmod>2026-01-07T01:18:12+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/credit-risk/</loc>
-    <lastmod>2026-01-06T02:08:44+05:30</lastmod>
+    <loc>http://localhost:1313/tags/feynman-kac-formula/</loc>
+    <lastmod>2026-01-07T01:18:12+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/infinitesimal-generator/</loc>
+    <lastmod>2026-01-07T01:18:12+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/it%C3%B4-diffusion/</loc>
+    <lastmod>2026-01-07T01:18:12+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/kolmogorov-equations/</loc>
+    <lastmod>2026-01-07T01:18:12+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/mathematical-finance/</loc>
+    <lastmod>2026-01-07T01:18:12+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/partial-differential-equations/</loc>
+    <lastmod>2026-01-07T01:18:12+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/pdes/</loc>
+    <lastmod>2026-01-07T01:18:12+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2026-01-06T02:08:44+05:30</lastmod>
+    <lastmod>2026-01-07T01:18:12+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-01-06T02:08:44+05:30</lastmod>
+    <lastmod>2026-01-07T01:18:12+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/series/quant-book/</loc>
-    <lastmod>2026-01-06T02:08:44+05:30</lastmod>
+    <lastmod>2026-01-07T01:18:12+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/quantitative-finance/</loc>
+    <lastmod>2026-01-07T01:18:12+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/risk-neutral-pricing/</loc>
+    <lastmod>2026-01-07T01:18:12+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/sdes/</loc>
+    <lastmod>2026-01-07T01:18:12+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/series/</loc>
-    <lastmod>2026-01-06T02:08:44+05:30</lastmod>
+    <lastmod>2026-01-07T01:18:12+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/stochastic/</loc>
-    <lastmod>2026-01-06T02:08:44+05:30</lastmod>
+    <loc>http://localhost:1313/categories/stochastic-processes/</loc>
+    <lastmod>2026-01-07T01:18:12+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/first/</loc>
-    <lastmod>2026-01-02T09:56:39+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/new/</loc>
-    <lastmod>2026-01-02T09:56:39+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2026-01-02T09:56:39+05:30</lastmod>
+    <loc>http://localhost:1313/posts/generator-of-an-ito-diffusion/</loc>
+    <lastmod>2026-01-07T01:18:12+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/archives/</loc>
     <lastmod>2026-01-02T12:16:49+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/bessel-processes/</loc>
-    <lastmod>2026-01-06T01:24:16+05:30</lastmod>
+    <loc>http://localhost:1313/categories/credit-risk/</loc>
   </url><url>
-    <loc>http://localhost:1313/posts/generator-of-an-ito-diffusion/</loc>
-    <lastmod>2026-01-06T02:08:44+05:30</lastmod>
+    <loc>http://localhost:1313/tags/first/</loc>
+  </url><url>
+    <loc>http://localhost:1313/categories/stochastic/</loc>
   </url>
 </urlset>

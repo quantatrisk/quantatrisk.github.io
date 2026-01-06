@@ -11,8 +11,29 @@
     </image>
     <generator>Hugo -- 0.154.1</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 06 Jan 2026 02:08:44 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 07 Jan 2026 01:18:12 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mathematical Finance</title>
+      <link>http://localhost:1313/categories/mathematical-finance/</link>
+      <pubDate>Wed, 07 Jan 2026 00:00:00 +0530</pubDate>
+      <guid>http://localhost:1313/categories/mathematical-finance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Partial Differential Equations</title>
+      <link>http://localhost:1313/categories/partial-differential-equations/</link>
+      <pubDate>Wed, 07 Jan 2026 00:00:00 +0530</pubDate>
+      <guid>http://localhost:1313/categories/partial-differential-equations/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Stochastic Processes</title>
+      <link>http://localhost:1313/categories/stochastic-processes/</link>
+      <pubDate>Wed, 07 Jan 2026 00:00:00 +0530</pubDate>
+      <guid>http://localhost:1313/categories/stochastic-processes/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Credit-Risk</title>
       <link>http://localhost:1313/categories/credit-risk/</link>
