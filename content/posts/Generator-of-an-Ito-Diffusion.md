@@ -1,26 +1,47 @@
 ---
 title: "The Generator of an Itô Diffusion"
 subtitle: "A Gateway to Connecting Stochastic Differential Equations, Partial Differential Equations, and the Feynman-Kac Formula in Quantitative Finance"
-# date: 
-categories: ["stochastic", "credit-risk"]
+date: 2026-01-07T00:00:00+05:30  # Auto-detected from filename if omitted
+draft: false
+
+# Primary categorization (1-3 max)
+categories: 
+  - "Stochastic Processes"
+  - "Mathematical Finance"
+  - "Partial Differential Equations"
+
+# Specific tags (5-10, SEO + discoverability)
+tags: 
+  - "Itô Diffusion"
+  - "Infinitesimal Generator"
+  - "Feynman-Kac Formula"
+  - "Kolmogorov Equations"
+  - "Dynkin's Formula"
+  - "SDEs"
+  - "PDEs"
+  - "Black-Scholes PDE"
+  - "Risk-Neutral Pricing"
+  - "Quantitative Finance"
+
+# Book series (for multi-part articles)
 series: ["Quant Book"]
+
+# Rendering flags (your MathJax setup)
 math: true
 toc: true
-images: ["/images/bessel-cover.jpg"]
+
+# PaperMod feature image (from your generated cover)
+image: "/images/posts/ito-diffusion-cover.png"
+
+# SEO / discoverability
+description: "Master the infinitesimal generator of Itô diffusions—the bridge connecting SDEs, PDEs, and Feynman-Kac formula. From Kolmogorov equations to Black-Scholes PDEs and risk-neutral pricing."
+keywords: ["Itô generator", "Feynman-Kac", "stochastic PDEs", "quant finance", "SDE PDE duality"]
+
+# Optional: social sharing
+twitter: "quantatrisk"
+github: "quantatrisk/quantatrisk.github.io"
+
 ---
-
-Inline: ( mathcal{L} f(x) = mu(x) f'(x) + \tfrac12 sigma^2(x) f''(x) ).
-
-Block:
-[
-dX_t = mu(X_t, t),dt + sigma(X_t, t),dW_t.
-]
-
-[
-\begin{aligned}
-V_t + \tfrac12 sigma^2 S^2 V_{SS} + r S V_S - r V &= 0 \tag{1}
-end{aligned}
-]
 
 The modern mathematical foundation for understanding continuous-time phenomena in quantitative finance rests upon a remarkable trinity of interconnected theories: the theory of Itô diffusion processes, the theory of partial differential equations (PDEs), and probabilistic methods for solving PDEs. At the heart of this trinity lies a deceptively elegant mathematical object: the infinitesimal generator of a stochastic diffusion process. This introduction surveys the conceptual landscape, historical development, and practical significance of this powerful framework, which has transformed mathematical finance and continues to underpin pricing, risk management, and portfolio optimization across the industry.<details markdown='1'><summary>Expand / Collapse</summary>
 

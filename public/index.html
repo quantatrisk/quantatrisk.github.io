@@ -68,7 +68,20 @@
         document.querySelector("html").dataset.theme = 'light';
     }
 
-</script><meta property="og:url" content="http://localhost:1313/">
+</script><script>
+window.MathJax = {
+  tex: {
+    inlineMath: [['\\(', '\\)'], ['$', '$']],
+    displayMath: [['\\[', '\\]'], ['$$', '$$']],
+    processEscapes: true,
+    tags: 'ams' 
+  },
+  options: {
+    skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+  }
+};
+</script>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script><meta property="og:url" content="http://localhost:1313/">
   <meta property="og:site_name" content="Quant at Risk">
   <meta property="og:title" content="Quant at Risk">
   <meta property="og:description" content="Stochastic Processes • Mathematical Finance • Quantitative Risk Modeling">
