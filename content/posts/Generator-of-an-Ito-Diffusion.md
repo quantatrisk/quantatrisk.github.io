@@ -239,7 +239,8 @@ The crucial observation is that if $u$ satisfies the PDE above, then by Itô's l
 
 
 
-To build intuition for the Feynman-Kac formula, it is helpful to adopt a physical metaphor[7]. Imagine a particle whose position at time $t$ is given by $X_t$, evolving according to the diffusion process governed by the SDE corresponding to generator $\mathcal{A}$ . Suppose the particle incurs a "cost" at a rate of $f(X_s,s)$ at location $X_s$ at time $s$. Additionally, the particle "decays" or is "killed" at rate $r(X_s,s)$ — if the particle has decayed, all future costs become zero. Finally, upon survival to the terminal time $T$, the particle incurs a final cost (or receives a final payoff) of $\psi(X_T)$.
+To build intuition for the Feynman-Kac formula, it is helpful to adopt a physical metaphor[7]. Imagine a particle whose position at time $t$ is given by $X_t$, evolving according to the diffusion process governed by the SDE corresponding to generator $\mathcal{A}$ . 
+Suppose the particle incurs a "cost" at a rate of $f(X_s,s)$ at location $X_s$ at time $s$. Additionally, the particle "decays" or is "killed" at rate $r(X_s,s)$ — if the particle has decayed, all future costs become zero. Finally, upon survival to the terminal time $T$, the particle incurs a final cost (or receives a final payoff) of $\psi(X_T)$.
 
 
 
