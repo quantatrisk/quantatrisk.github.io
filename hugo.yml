@@ -102,7 +102,10 @@ params:
     favicon: "/favicon.ico"
     
    # Add CSS file
-    css: ["css/extended/wider-posts.css"]
+    css:
+      - "css/extended/wider-posts.css"      # Your overrides
+  
+    
 
   # Social
   socialIcons:

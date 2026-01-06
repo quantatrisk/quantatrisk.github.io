@@ -34,19 +34,5 @@
       <guid>http://localhost:1313/categories/stochastic-processes/</guid>
       <description></description>
     </item>
-    <item>
-      <title>Credit-Risk</title>
-      <link>http://localhost:1313/categories/credit-risk/</link>
-      <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/credit-risk/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Stochastic</title>
-      <link>http://localhost:1313/categories/stochastic/</link>
-      <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/stochastic/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>
