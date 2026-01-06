@@ -33,7 +33,7 @@ markup:
     lineNumbersInTable: true
     style: "github-dark"
   katex:
-    enable: true
+    enable: false
     noInlineSVG: false
 
 # PaperMod Params (Homepage + Features)
@@ -50,7 +50,7 @@ params:
   disableThemeToggle: true
 
   math: true
-  mathEngine: "katex"
+  mathEngine: "mathjax"
   
   ShowReadingTime: true
   ShowShareButtons: true
