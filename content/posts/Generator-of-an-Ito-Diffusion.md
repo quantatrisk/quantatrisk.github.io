@@ -31,7 +31,10 @@ math: true
 toc: true
 
 # PaperMod feature image (from your generated cover)
-image: "/images/posts/ito-diffusion-cover.png"
+cover:
+  image: "/images/posts/infinitesimal-generator.png"  # ← Exact path
+  alt: "Itô diffusion generator visualization"
+  caption: "Generator and Feynman-Kac duality"
 
 # SEO / discoverability
 description: "Master the infinitesimal generator of Itô diffusions—the bridge connecting SDEs, PDEs, and Feynman-Kac formula. From Kolmogorov equations to Black-Scholes PDEs and risk-neutral pricing."
