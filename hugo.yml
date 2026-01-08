@@ -45,6 +45,7 @@ params:
   author: "Pinaki Bhattacharyya"
   images: ["/favicon.ico"]
   
+  
   DateFormat: "January 2, 2006"
   defaultTheme: auto
   disableThemeToggle: true
@@ -77,6 +78,7 @@ params:
     Title: "Welcome to Quant at Risk 👋"
     Content: "Stochastic Processes • Mathematical Finance • Bessel Modeling • Risk Analytics"
     imageUrl: "/favicon.ico"
+    ShowAllPagesInHome: true  # Show recent posts below quote
   
   # Branding (moved under params)
   label:
