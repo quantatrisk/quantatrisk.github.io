@@ -152,9 +152,10 @@ $$
 
 where $A^{∗}$ is the Hermitian adjoint (or formal dual) of the generator $A$ with respect to the $L_2$ inner product[9][4][6]. These two equations—backward and forward—represent complementary perspectives (in other words, they are equivalent) on the same underlying stochastic process: the backward equation describes expectations, while the er8forward equation describes probability densities. 
 
-Quoting from Gardiner:
+Quoting from Gardiner [ref]:
 
-"The forward equation gives more directly the values of measurable quantities as a function of the observed time $t$, and tends to used more commonly in applications. The backward equation finds most applications in the study of *fist passage time* or *exit problems*, in which we find the probability that a particle leaves a region in a given time."
+> The forward equation gives more directly the values of measurable quantities as a function of the observed time $t$, and tends to used more commonly in applications. The backward equation finds most applications in the study of *fist passage time* or *exit problems*, in which we find the probability that a particle leaves a region in a given time..
+>
 
 
 
