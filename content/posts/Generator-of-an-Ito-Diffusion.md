@@ -150,13 +150,17 @@ $$
 $$
 
 
-where $A^{∗}$ is the Hermitian adjoint (or formal dual) of the generator $A$ with respect to the $L_2$ inner product[9][4][6]. These two equations—backward and forward—represent complementary perspectives on the same underlying stochastic process: the backward equation describes expectations, while the forward equation describes probability densities.
+where $A^{∗}$ is the Hermitian adjoint (or formal dual) of the generator $A$ with respect to the $L_2$ inner product[9][4][6]. These two equations—backward and forward—represent complementary perspectives (in other words, they are equivalent) on the same underlying stochastic process: the backward equation describes expectations, while the er8forward equation describes probability densities. 
+
+Quoting from Gardiner:
+
+"The forward equation gives more directly the values of measurable quantities as a function of the observed time $t$, and tends to used more commonly in applications. The backward equation finds most applications in the study of *fist passage time* or *exit problems*, in which we find the probability that a particle leaves a region in a given time."
+
+
 
 ### 2.2 Dynkin's Formula: Expected Values at Stopping Times
 
 A crucial application of the generator is **Dynkin's formula**, named after Eugene Dynkin[11][20][21]. This formula generalizes the Kolmogorov backward equation to random stopping times, rather than fixed times. Specifically, if $\tau$ is a stopping time (a random time that may depend on the path of the process but satisfies a non-anticipating property) with finite expectation $\mathbb{E}^x[\tau]< \inf$, and if $f$ is a suitably smooth function (typically $C^2$ with compact support), then
-
-
 
 $$
 \begin{equation} \tag{2.3}
