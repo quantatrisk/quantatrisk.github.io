@@ -119,10 +119,9 @@ params:
       url: "https://twitter.com/quantatrisk"
 
 # Clean analytics/verification
+
 analytics:
-  google: ''
-verification:
-  google: ''
+    cloudflare: "b624c9ad60774325b59932c12c782605"
 
 # Main Menu (Book Structure)
 menu:
