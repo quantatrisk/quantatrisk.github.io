@@ -3,6 +3,7 @@ baseURL: "https://quantatrisk.github.io/"
 languageCode: "en-us"
 title: "Quant at Risk"
 theme: "PaperMod"
+draft: true
 
 # Book-ready pagination
 pagination:

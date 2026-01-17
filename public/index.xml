@@ -2,22 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Quant at Risk</title>
-    <link>http://localhost:1313/</link>
+    <link>https://quantatrisk.github.io/</link>
     <description>Recent content on Quant at Risk</description>
     <image>
       <title>Quant at Risk</title>
-      <url>http://localhost:1313/favicon.ico</url>
-      <link>http://localhost:1313/favicon.ico</link>
+      <url>https://quantatrisk.github.io/favicon.ico</url>
+      <link>https://quantatrisk.github.io/favicon.ico</link>
     </image>
     <generator>Hugo -- 0.154.1</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://quantatrisk.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Generator of an Itô Diffusion</title>
-      <link>http://localhost:1313/posts/generator-of-an-ito-diffusion/</link>
+      <link>https://quantatrisk.github.io/posts/generator-of-an-ito-diffusion/</link>
       <pubDate>Wed, 07 Jan 2026 00:00:00 +0530</pubDate>
-      <guid>http://localhost:1313/posts/generator-of-an-ito-diffusion/</guid>
+      <guid>https://quantatrisk.github.io/posts/generator-of-an-ito-diffusion/</guid>
       <description>Master the infinitesimal generator of Itô diffusions—the bridge connecting SDEs, PDEs, and Feynman-Kac formula. From Kolmogorov equations to Black-Scholes PDEs and risk-neutral pricing.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://quantatrisk.github.io/posts/runge-kutta/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://quantatrisk.github.io/posts/runge-kutta/</guid>
+      <description>&lt;h1 id=&#34;runge-kutta-method-for-numerical-integration-of-odes&#34;&gt;Runge-Kutta Method for Numerical Integration of ODEs&lt;/h1&gt;
+&lt;p&gt;Consult Numerical Recipes in C&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Itô Generator Draft</title>
+      <link>https://quantatrisk.github.io/drafts/my-ito-draft/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://quantatrisk.github.io/drafts/my-ito-draft/</guid>
+      <description>&lt;p&gt;Private draft content here&amp;hellip;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

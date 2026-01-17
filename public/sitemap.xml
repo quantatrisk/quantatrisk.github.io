@@ -2,67 +2,74 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/tags/black-scholes-pde/</loc>
+    <loc>https://quantatrisk.github.io/tags/black-scholes-pde/</loc>
     <lastmod>2026-01-08T22:12:59+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://quantatrisk.github.io/categories/</loc>
     <lastmod>2026-01-08T22:12:59+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/dynkins-formula/</loc>
+    <loc>https://quantatrisk.github.io/tags/dynkins-formula/</loc>
     <lastmod>2026-01-08T22:12:59+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/feynman-kac-formula/</loc>
+    <loc>https://quantatrisk.github.io/tags/feynman-kac-formula/</loc>
     <lastmod>2026-01-08T22:12:59+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/infinitesimal-generator/</loc>
+    <loc>https://quantatrisk.github.io/tags/infinitesimal-generator/</loc>
     <lastmod>2026-01-08T22:12:59+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/it%C3%B4-diffusion/</loc>
+    <loc>https://quantatrisk.github.io/tags/it%C3%B4-diffusion/</loc>
     <lastmod>2026-01-08T22:12:59+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/kolmogorov-equations/</loc>
+    <loc>https://quantatrisk.github.io/tags/kolmogorov-equations/</loc>
     <lastmod>2026-01-08T22:12:59+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/mathematical-finance/</loc>
+    <loc>https://quantatrisk.github.io/categories/mathematical-finance/</loc>
     <lastmod>2026-01-08T22:12:59+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/partial-differential-equations/</loc>
+    <loc>https://quantatrisk.github.io/categories/partial-differential-equations/</loc>
     <lastmod>2026-01-08T22:12:59+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/pdes/</loc>
+    <loc>https://quantatrisk.github.io/tags/pdes/</loc>
     <lastmod>2026-01-08T22:12:59+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://quantatrisk.github.io/posts/</loc>
+    <lastmod>2026-01-18T01:49:14+05:30</lastmod>
+  </url><url>
+    <loc>https://quantatrisk.github.io/series/quant-book/</loc>
     <lastmod>2026-01-08T22:12:59+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/series/quant-book/</loc>
+    <loc>https://quantatrisk.github.io/tags/quantitative-finance/</loc>
     <lastmod>2026-01-08T22:12:59+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/quantitative-finance/</loc>
+    <loc>https://quantatrisk.github.io/tags/risk-neutral-pricing/</loc>
     <lastmod>2026-01-08T22:12:59+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/risk-neutral-pricing/</loc>
+    <loc>https://quantatrisk.github.io/tags/sdes/</loc>
     <lastmod>2026-01-08T22:12:59+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/sdes/</loc>
+    <loc>https://quantatrisk.github.io/series/</loc>
     <lastmod>2026-01-08T22:12:59+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/series/</loc>
+    <loc>https://quantatrisk.github.io/categories/stochastic-processes/</loc>
     <lastmod>2026-01-08T22:12:59+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/stochastic-processes/</loc>
+    <loc>https://quantatrisk.github.io/tags/</loc>
     <lastmod>2026-01-08T22:12:59+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://quantatrisk.github.io/posts/generator-of-an-ito-diffusion/</loc>
     <lastmod>2026-01-08T22:12:59+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/generator-of-an-ito-diffusion/</loc>
-    <lastmod>2026-01-08T22:12:59+05:30</lastmod>
+    <loc>https://quantatrisk.github.io/posts/runge-kutta/</loc>
+    <lastmod>2026-01-18T01:49:14+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archives/</loc>
+    <loc>https://quantatrisk.github.io/archives/</loc>
     <lastmod>2026-01-02T12:16:49+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://quantatrisk.github.io/drafts/</loc>
+  </url><url>
+    <loc>https://quantatrisk.github.io/drafts/my-ito-draft/</loc>
+  </url><url>
+    <loc>https://quantatrisk.github.io/</loc>
     <lastmod>2026-01-08T23:12:45+05:30</lastmod>
   </url>
 </urlset>
