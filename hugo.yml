@@ -122,6 +122,9 @@ params:
 
 analytics:
     cloudflare: "b624c9ad60774325b59932c12c782605"
+    google:
+      ID: "G-F20Z6DHZT1"  # Your GA4 ID
+      AnonymizeIP: true  # Optional privacy
 
 # Main Menu (Book Structure)
 menu:
