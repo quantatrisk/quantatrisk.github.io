@@ -41,6 +41,12 @@ markup:
 params:
   env: production
   title: "Quant at Risk"
+  Content: |
+      > So how do you go about teaching them something new? By mixing what they know...
+      > **PICASSO**
+      
+      Explore advanced quantitative finance.
+
   description: "Stochastic Processes • Mathematical Finance • Quantitative Risk Modeling"
   keywords: ["stochastic", "finance", "quant", "math", "Bessel", "Brownian"]
   author: "Pinaki Bhattacharyya"
