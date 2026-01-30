@@ -70,7 +70,7 @@ Af(x) = \lim_{t \downarrow 0} \frac{\mathbb{E}^x[f(X_t)] - f(x)}{t}
 \end{equation}
 $$
 
-where the expectation $\mathbb{E}^x$  is taken conditional on the initial state X0=x, and where f ranges over a suitable space of test functions[9][10][11]. This definition captures the essential idea that the generator encodes information about the instantaneous rate of change of expectations for smooth functions applied to the process.
+where the expectation $\mathbb{E}^x$  is taken conditional on the initial state X0=x, and where f ranges over a suitable space of test functions[9][10][11]. This definition captures the essential idea that the generator encodes information about the instantaneous rate of change of expectations for *smooth functions* applied to the process.
 
 For an explicit Itô diffusion process satisfying the stochastic differential equation
 
@@ -137,7 +137,7 @@ u(0,x) = f(x), x \in \mathbb{R}^n,
 \end{align}
 $$
 
-This remarkable result shows that the generator, which characterizes the infinitesimal behavior of the stochastic process, also characterizes how expectations of the process evolve in time through a deterministic PDE[9][4]. The "backward" terminology arises because this equation is specified with an initial condition at time $t=0$ and evolves forward in time, though its derivation involves conditioning on a future event.
+This remarkable result shows that the generator, which characterizes the infinitesimal behavior of the stochastic process, also characterizes how expectations of the process evolve in time through a deterministic PDE[9][4]. The "backward" terminology arises because this equation is specified with an initial condition at time $t=0$ and evolves forward in time, though its derivation involves **conditioning on a future event**.
 
 The **Kolmogorov forward equation**, also known as the **Fokker-Planck equation**, is the "adjoint" version of the backward equation[9][4][6]. It describes how the probability density function $\rho(t,x)$ of $X_t$ evolves in time:
 
@@ -150,7 +150,7 @@ $$
 $$
 
 
-where $A^{∗}$ is the Hermitian adjoint (or formal dual) of the generator $A$ with respect to the $L_2$ inner product[9][4][6]. These two equations—backward and forward—represent complementary perspectives (in other words, they are equivalent) on the same underlying stochastic process: the backward equation describes expectations, while the er8forward equation describes probability densities. 
+where $A^{∗}$ is the Hermitian adjoint (or formal dual) of the generator $A$ with respect to the $L_2$ inner product[9][4][6]. These two equations—backward and forward—represent complementary perspectives (in other words, they are equivalent) on the same underlying stochastic process: the backward equation describes expectations, while the forward equation describes probability densities. 
 
 Quoting from Gardiner [ref]:
 
