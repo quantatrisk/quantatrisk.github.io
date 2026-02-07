@@ -6,7 +6,6 @@ Please cite this work as:
 *{{ .Site.Params.blog_name }}, {{ .Date.Format "Jan 2006" }}.*
 
 Or use the BibTeX citation:
-
 @article{{ delimit (slice (.Title | lower | replaceRE "[^a-z0-9]" "") 0 20 }}{{- .Date.Format "2006" -}},
 author = {{{ .Params.author | default .Site.Params.author }}},
 title = {{{ .Title }}},
