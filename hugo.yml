@@ -45,6 +45,7 @@ params:
   keywords: ["stochastic", "finance", "quant", "math", "Bessel", "Brownian"]
   author: "Pinaki Bhattacharyya"
   images: ["/favicon.ico"]
+  doi_prefix: "quant@risk"
   
   
   DateFormat: "January 2, 2006"

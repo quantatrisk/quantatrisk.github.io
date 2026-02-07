@@ -1,0 +1,21 @@
+name: Generate DOI
+on:
+  push:
+    paths: ['content/posts/**']
+jobs:
+  doi:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Generate DOIs
+      run: |
+        cd content/posts
+        for post in *.md; do
+          date=$(sed -n '/date:/s/date: //p' "$post" | xargs date +%Y%m%d)
+          slug=$(basename "$post" .md)
+          doi="10.yourblog${date}${RANDOM:0:3}"
+          echo "doi: $doi" >> "$post"
+        done
+    - uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: "Auto-generate DOIs"

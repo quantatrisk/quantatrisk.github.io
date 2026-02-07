@@ -1,0 +1,17 @@
+## Citation
+
+Please cite this work as:
+
+**{{ .Params.author | default .Site.Params.author }}, "{{ .Title }}",**  
+*{{ .Site.Params.blog_name }}, {{ .Date.Format "Jan 2006" }}.*
+
+Or use the BibTeX citation:
+
+@article{{ delimit (slice (.Title | lower | replaceRE "[^a-z0-9]" "") 0 20 }}{{- .Date.Format "2006" -}},
+author = {{{ .Params.author | default .Site.Params.author }}},
+title = {{{ .Title }}},
+journal = {{{ .Site.Params.blog_name }}},
+year = {{{ .Date.Format "2006" }}},
+note = {{{ .Permalink }}},
+doi = {10.{{ .Site.Params.doi_prefix }}{{ .Date.Format "20060102" }}{{ add (len .Params.tags) 1 }}},
+}
