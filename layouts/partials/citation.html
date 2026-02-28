@@ -1,16 +1,21 @@
-## Citation
+<div style="margin: 2rem 0; padding: 1.5rem; background: rgba(74, 85, 104, 0.3);">
+  <h2 style="color: #e2e8f0; margin: 0 0 1rem 0; font-size: 1.3em;">Citation</h2>
+  <p style="color: #cbd5e1; margin: 0 0 1rem 0; font-size: 1em;"><strong>Please cite this work as:</strong></p>
+  <div style="background: rgba(100, 116, 139, 0.4); padding: 1rem 1.5rem; margin: 1rem 0; border-radius: 6px; font-style: italic; color: #e2e8f0;">
+    <strong>{{ .Params.author | default .Site.Params.author }}</strong>,
+    "<em>{{ .Title }}</em>",<br>
+    <em>{{ .Site.Params.blog_name }}, {{ .Date.Format "Jan 2006" }}</em>.
+    <a href="{{ .Permalink }}" style="color: #60a5fa; text-decoration: none;">{{ .Permalink }}</a>
+  </div>
 
-Please cite this work as:
-
-**{{ .Params.author | default .Site.Params.author }}, "{{ .Title }}",**  
-*{{ .Site.Params.blog_name }}, {{ .Date.Format "Jan 2006" }}.*
-
-Or use the BibTeX citation:
-@article{{ delimit (slice (.Title | lower | replaceRE "[^a-z0-9]" "") 0 20 }}{{- .Date.Format "2006" -}},
-author = {{{ .Params.author | default .Site.Params.author }}},
-title = {{{ .Title }}},
-journal = {{{ .Site.Params.blog_name }}},
-year = {{{ .Date.Format "2006" }}},
-note = {{{ .Permalink }}},
-doi = {10.{{ .Site.Params.doi_prefix }}{{ .Date.Format "20060102" }}{{ add (len .Params.tags) 1 }}},
+  <h3 style="color: #e2e8f0; margin: 1.5rem 0 1rem 0;">BibTeX</h3>
+  <pre style="background: #1e293b; color: #f8fafc; padding: 1rem; border-radius: 6px; overflow-x: auto; margin: 1rem 0; font-size: 0.85em; border-left: 3px solid #60a5fa;"><code>@article{{ .Date.Format "2006" }}{{ delimit (slice (.Title | lower | replaceRE "[^a-z0-9]" "") 0 20) "" }},
+  author = {{ .Params.author | default .Site.Params.author }},
+  title = {{ .Title }},
+  publication = {{ .Site.Params.blog_name }},
+  year = {{ .Date.Format "2006" }},
+  note = {{ .Permalink }},
+  doi = {10.{{ .Site.Params.doi_prefix }}{{ .Date.Format "20060102" }}{{ add (len (.Params.tags | default (slice))) 1 }}},
 }
+</code></pre>
+</div>

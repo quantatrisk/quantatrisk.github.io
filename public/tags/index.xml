@@ -2,85 +2,85 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Quant at Risk</title>
-    <link>https://quantatrisk.github.io/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Quant at Risk</description>
     <image>
       <title>Quant at Risk</title>
-      <url>https://quantatrisk.github.io/favicon.ico</url>
-      <link>https://quantatrisk.github.io/favicon.ico</link>
+      <url>http://localhost:1313/favicon.ico</url>
+      <link>http://localhost:1313/favicon.ico</link>
     </image>
-    <generator>Hugo -- 0.154.1</generator>
+    <generator>Hugo -- 0.157.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 08 Jan 2026 22:12:59 +0530</lastBuildDate>
-    <atom:link href="https://quantatrisk.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 30 Jan 2026 09:53:46 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Black-Scholes PDE</title>
-      <link>https://quantatrisk.github.io/tags/black-scholes-pde/</link>
+      <link>http://localhost:1313/tags/black-scholes-pde/</link>
       <pubDate>Wed, 07 Jan 2026 00:00:00 +0530</pubDate>
-      <guid>https://quantatrisk.github.io/tags/black-scholes-pde/</guid>
+      <guid>http://localhost:1313/tags/black-scholes-pde/</guid>
       <description></description>
     </item>
     <item>
       <title>Dynkin&#39;s Formula</title>
-      <link>https://quantatrisk.github.io/tags/dynkins-formula/</link>
+      <link>http://localhost:1313/tags/dynkins-formula/</link>
       <pubDate>Wed, 07 Jan 2026 00:00:00 +0530</pubDate>
-      <guid>https://quantatrisk.github.io/tags/dynkins-formula/</guid>
+      <guid>http://localhost:1313/tags/dynkins-formula/</guid>
       <description></description>
     </item>
     <item>
       <title>Feynman-Kac Formula</title>
-      <link>https://quantatrisk.github.io/tags/feynman-kac-formula/</link>
+      <link>http://localhost:1313/tags/feynman-kac-formula/</link>
       <pubDate>Wed, 07 Jan 2026 00:00:00 +0530</pubDate>
-      <guid>https://quantatrisk.github.io/tags/feynman-kac-formula/</guid>
+      <guid>http://localhost:1313/tags/feynman-kac-formula/</guid>
       <description></description>
     </item>
     <item>
       <title>Infinitesimal Generator</title>
-      <link>https://quantatrisk.github.io/tags/infinitesimal-generator/</link>
+      <link>http://localhost:1313/tags/infinitesimal-generator/</link>
       <pubDate>Wed, 07 Jan 2026 00:00:00 +0530</pubDate>
-      <guid>https://quantatrisk.github.io/tags/infinitesimal-generator/</guid>
+      <guid>http://localhost:1313/tags/infinitesimal-generator/</guid>
       <description></description>
     </item>
     <item>
       <title>Itô Diffusion</title>
-      <link>https://quantatrisk.github.io/tags/it%C3%B4-diffusion/</link>
+      <link>http://localhost:1313/tags/it%C3%B4-diffusion/</link>
       <pubDate>Wed, 07 Jan 2026 00:00:00 +0530</pubDate>
-      <guid>https://quantatrisk.github.io/tags/it%C3%B4-diffusion/</guid>
+      <guid>http://localhost:1313/tags/it%C3%B4-diffusion/</guid>
       <description></description>
     </item>
     <item>
       <title>Kolmogorov Equations</title>
-      <link>https://quantatrisk.github.io/tags/kolmogorov-equations/</link>
+      <link>http://localhost:1313/tags/kolmogorov-equations/</link>
       <pubDate>Wed, 07 Jan 2026 00:00:00 +0530</pubDate>
-      <guid>https://quantatrisk.github.io/tags/kolmogorov-equations/</guid>
+      <guid>http://localhost:1313/tags/kolmogorov-equations/</guid>
       <description></description>
     </item>
     <item>
       <title>PDEs</title>
-      <link>https://quantatrisk.github.io/tags/pdes/</link>
+      <link>http://localhost:1313/tags/pdes/</link>
       <pubDate>Wed, 07 Jan 2026 00:00:00 +0530</pubDate>
-      <guid>https://quantatrisk.github.io/tags/pdes/</guid>
+      <guid>http://localhost:1313/tags/pdes/</guid>
       <description></description>
     </item>
     <item>
       <title>Quantitative Finance</title>
-      <link>https://quantatrisk.github.io/tags/quantitative-finance/</link>
+      <link>http://localhost:1313/tags/quantitative-finance/</link>
       <pubDate>Wed, 07 Jan 2026 00:00:00 +0530</pubDate>
-      <guid>https://quantatrisk.github.io/tags/quantitative-finance/</guid>
+      <guid>http://localhost:1313/tags/quantitative-finance/</guid>
       <description></description>
     </item>
     <item>
       <title>Risk-Neutral Pricing</title>
-      <link>https://quantatrisk.github.io/tags/risk-neutral-pricing/</link>
+      <link>http://localhost:1313/tags/risk-neutral-pricing/</link>
       <pubDate>Wed, 07 Jan 2026 00:00:00 +0530</pubDate>
-      <guid>https://quantatrisk.github.io/tags/risk-neutral-pricing/</guid>
+      <guid>http://localhost:1313/tags/risk-neutral-pricing/</guid>
       <description></description>
     </item>
     <item>
       <title>SDEs</title>
-      <link>https://quantatrisk.github.io/tags/sdes/</link>
+      <link>http://localhost:1313/tags/sdes/</link>
       <pubDate>Wed, 07 Jan 2026 00:00:00 +0530</pubDate>
-      <guid>https://quantatrisk.github.io/tags/sdes/</guid>
+      <guid>http://localhost:1313/tags/sdes/</guid>
       <description></description>
     </item>
   </channel>

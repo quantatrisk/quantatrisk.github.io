@@ -378,8 +378,9 @@ In quantitative finance, these tools are not merely of theoretical interest—th
 The subsequent sections of this article will develop these topics in depth. We shall provide rigorous mathematical treatments of the generator's definition and properties, derive the Kolmogorov equations with full care to technical details, prove Dynkin's formula under appropriate hypotheses, and establish the Feynman-Kac formula with complete proofs. We shall then explore applications to specific financial problems: the derivation of the Black-Scholes formula and its extensions, the pricing of exotic options via PDE methods and Monte Carlo simulation, the construction of interest rate models, and modern applications to credit risk and counterparty risk modeling. Throughout, the presentation will balance mathematical rigor with intuitive explanation, providing both the conceptual understanding necessary for mastery and the technical details required for implementation.
 
 
+<div class="citation-list-block">
 
-Citations:
+**References:**
 
 [1] Kiyosi Itô - Wikipedia https://en.wikipedia.org/wiki/Kiyosi_It%C3%B4
 
@@ -532,6 +533,6 @@ Citations:
 [75] Itô's Calculus and the Derivation of the Black-Scholes ... https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID1285245_code91227.pdf?abstractid=1022386&mirid=1&type=2
 
 [76] Mokobodzki's intervals: An approach to Dynkin games ... https://www.sciencedirect.com/science/article/pii/S0304414925002303
-
+</div>
 
 

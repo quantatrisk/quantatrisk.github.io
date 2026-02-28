@@ -44,10 +44,10 @@ params:
   description: "Stochastic Processes • Mathematical Finance • Quantitative Risk Modeling"
   keywords: ["stochastic", "finance", "quant", "math", "Bessel", "Brownian"]
   author: "Pinaki Bhattacharyya"
+  blog_name: "Quant at Risk"
   images: ["/favicon.ico"]
-  doi_prefix: "quant@risk"
-  
-  
+  doi_prefix: "quantatrisk"
+
   DateFormat: "January 2, 2006"
   defaultTheme: auto
   disableThemeToggle: true
@@ -107,7 +107,8 @@ params:
     
    # Add CSS file
     css:
-      - "css/extended/wider-posts.css"      # Your overrides
+      - "css/extended/wider-posts.css"
+      - "css/custom.css"# Your overrides
   
     
 

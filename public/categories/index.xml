@@ -2,36 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on Quant at Risk</title>
-    <link>https://quantatrisk.github.io/categories/</link>
+    <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on Quant at Risk</description>
     <image>
       <title>Quant at Risk</title>
-      <url>https://quantatrisk.github.io/favicon.ico</url>
-      <link>https://quantatrisk.github.io/favicon.ico</link>
+      <url>http://localhost:1313/favicon.ico</url>
+      <link>http://localhost:1313/favicon.ico</link>
     </image>
-    <generator>Hugo -- 0.154.1</generator>
+    <generator>Hugo -- 0.157.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 08 Jan 2026 22:12:59 +0530</lastBuildDate>
-    <atom:link href="https://quantatrisk.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 30 Jan 2026 09:53:46 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mathematical Finance</title>
-      <link>https://quantatrisk.github.io/categories/mathematical-finance/</link>
+      <link>http://localhost:1313/categories/mathematical-finance/</link>
       <pubDate>Wed, 07 Jan 2026 00:00:00 +0530</pubDate>
-      <guid>https://quantatrisk.github.io/categories/mathematical-finance/</guid>
+      <guid>http://localhost:1313/categories/mathematical-finance/</guid>
       <description></description>
     </item>
     <item>
       <title>Partial Differential Equations</title>
-      <link>https://quantatrisk.github.io/categories/partial-differential-equations/</link>
+      <link>http://localhost:1313/categories/partial-differential-equations/</link>
       <pubDate>Wed, 07 Jan 2026 00:00:00 +0530</pubDate>
-      <guid>https://quantatrisk.github.io/categories/partial-differential-equations/</guid>
+      <guid>http://localhost:1313/categories/partial-differential-equations/</guid>
       <description></description>
     </item>
     <item>
       <title>Stochastic Processes</title>
-      <link>https://quantatrisk.github.io/categories/stochastic-processes/</link>
+      <link>http://localhost:1313/categories/stochastic-processes/</link>
       <pubDate>Wed, 07 Jan 2026 00:00:00 +0530</pubDate>
-      <guid>https://quantatrisk.github.io/categories/stochastic-processes/</guid>
+      <guid>http://localhost:1313/categories/stochastic-processes/</guid>
       <description></description>
     </item>
   </channel>
