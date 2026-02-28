@@ -72,67 +72,76 @@ main .picasso-works .work {
   .picasso-works .work { flex: 0 0 42% !important; }
 }
 
-/* FORCE VISIBLE CITATION BLOCK - DARK MODE */
+/* Main citation block at the top of the post */
 .citation-block {
   margin: 2rem 0 !important;
   padding: 1.5rem !important;
-  /* MUCH LIGHTER - Stands out from ANY dark theme */
-  background: #4a5568 !important;  /* Light slate gray */
-  border: 2px solid #63b3ed !important;  /* Bright blue border */
-  border-radius: 12px !important;
-  box-shadow: 0 4px 12px rgba(99, 179, 237, 0.3) !important;
+  background: rgba(74, 85, 104, 0.3) !important;
+  border-radius: 8px !important;
 }
 
 .citation-block h2, .citation-block h3 {
-  color: #ffffff !important;
+  color: #e2e8f0 !important;
   font-size: 1.3em !important;
-  margin-top: 0 !important;
-  border-bottom: 2px solid #63b3ed !important;
+  margin: 0 0 1rem 0 !important;
+  border-bottom: 1px solid rgba(100, 116, 139, 0.4) !important;
   padding-bottom: 0.5rem !important;
 }
 
 .citation-block blockquote {
-  background: #64748b !important;  /* Even lighter */
-  border-left: 4px solid #63b3ed !important;
+  background: rgba(100, 116, 139, 0.4) !important;
+  border-left: none !important;
   color: #e2e8f0 !important;
   padding: 1rem 1.5rem !important;
   margin: 1rem 0 !important;
+  border-radius: 6px;
 }
 
 .citation-block pre {
-  background: #1e293b !important;  /* Darker code bg for contrast */
+  background: #1e293b !important;
   color: #f8fafc !important;
   border: 1px solid #475569 !important;
   padding: 1.2rem !important;
   border-radius: 8px !important;
-  overflow-x: auto !important;
 }
 
-.citation-block pre code {
-  background: none !important;
-}
-
-/* Custom block for a numbered citation list (dark mode friendly) */
+/* Replicates the style of the top block for the bottom reference list */
 .citation-list-block {
-  background-color: #2d3748; /* A lighter grey for dark themes */
-  padding: 1.5em;
-  margin-top: 2em;
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background: rgba(74, 85, 104, 0.3);
   border-radius: 8px;
-  border-left: 4px solid #4299e1; /* A pleasant blue highlight */
 }
 
-/* Style the ordered list within the block */
+/* Style for the heading (e.g., ### References) */
+.citation-list-block h3 {
+  color: #e2e8f0;
+  margin: 0 0 1rem 0;
+  font-size: 1.3em;
+  border-bottom: 1px solid rgba(100, 116, 139, 0.4);
+  padding-bottom: 0.5rem;
+}
+
 .citation-list-block ol {
-  padding-left: 2em; /* Give numbers some space */
-  margin: 0;
+  padding-left: 2em;
+  margin: 1rem 0 0 0;
+  list-style-position: outside;
 }
 
-/* Style individual citation items */
 .citation-list-block li {
-  margin-bottom: 1em; /* Space out the citations */
-  color: #c5cdd7; /* Lighter text color for readability */
+  margin-bottom: 1em;
+  color: #cbd5e1; /* Lighter text for readability */
 }
 
 .citation-list-block li:last-child {
   margin-bottom: 0;
+}
+
+.citation-list-block a {
+  color: #60a5fa; /* Bright blue for links */
+  text-decoration: none;
+}
+
+.citation-list-block a:hover {
+  text-decoration: underline;
 }
