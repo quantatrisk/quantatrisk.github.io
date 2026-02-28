@@ -11,11 +11,13 @@ jobs:
       run: |
         cd content/posts
         for post in *.md; do
-          date=$(sed -n '/date:/s/date: //p' "$post" | xargs date +%Y%m%d)
+          post_date=$(sed -n '/date:/s/date: //p' "$post")
+          date_fmt=$(date -d "$post_date" +%Y%m%d)
           slug=$(basename "$post" .md)
-          doi="10.yourblog${date}${RANDOM:0:3}"
+          doi="10.yourblog${date_fmt}${RANDOM:0:3}"
           echo "doi: $doi" >> "$post"
         done
+
     - uses: stefanzweifel/git-auto-commit-action@v5
       with:
         commit_message: "Auto-generate DOIs"
