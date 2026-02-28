@@ -148,6 +148,10 @@ menu:
       name: "🔖 Tags"
       url: "/tags/"
       weight: 40
+    - identifier: "about"
+      name: "👤 About"
+      url: "/about/"
+      weight: 50
 
 # Taxonomies (Book organization)
 taxonomies:
