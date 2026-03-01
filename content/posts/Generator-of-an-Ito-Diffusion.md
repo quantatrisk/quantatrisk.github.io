@@ -47,7 +47,7 @@ github: "quantatrisk/quantatrisk.github.io"
 ---
 
 <div style="margin-bottom: 2rem;">
-  <video style="width: 100%; border-radius: 8px;" controls autoplay muted playsinline>
+  <video style="width: 100%; border-radius: 8px;" controls playsinline>
     <source src="/videos/infinitesimal_generator.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
@@ -241,6 +241,7 @@ The derivation of this formula proceeds via Itô's lemma applied to a carefully 
 $$
 \begin{equation} \tag{3.3}
 Y_s = g(t,s)u(X_s,s) + \int_t^s g(t,\tau)f(X_\tau,\tau)d\tau.
+\end{_t,s)u(X_s,s) + \int_t^s g(t,\tau)f(X_\tau,\tau)d\tau.
 \end{equation}
 $$
 
