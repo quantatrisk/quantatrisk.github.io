@@ -45,7 +45,7 @@ params:
   keywords: ["stochastic", "finance", "quant", "math", "Bessel", "Brownian"]
   author: "Pinaki Bhattacharyya"
   blog_name: "Quant at Risk"
-  images: ["/favicon.ico"]
+  images: ["/images/favicon.svg"]
   doi_prefix: "quantatrisk"
 
   DateFormat: "January 2, 2006"
@@ -79,13 +79,13 @@ params:
   homeInfoParams:
     Title: "Welcome to Quant at Risk 👋"
     Content: "Stochastic Processes • Mathematical Finance • Bessel Modeling • Risk Analytics"
-    imageUrl: "/favicon.ico"
+    imageUrl: "/images/favicon.svg"
     ShowAllPagesInHome: true  # Show recent posts below quote
   
   # Branding (moved under params)
   label:
     text: "Quant at Risk"
-    icon: "/favicon.ico"
+    icon: "/images/favicon.svg"
     iconHeight: 35
   
   # Book editing
@@ -103,7 +103,7 @@ params:
   
   assets:
     disableHLJS: false
-    favicon: "/favicon.ico"
+    favicon: "/images/favicon.svg"
     
    # Add CSS file
     css:

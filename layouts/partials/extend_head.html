@@ -15,3 +15,8 @@
 {{ partial "mathjax.html" . }}
 
 <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
+
+ {{- /* More robust favicon links */ -}}
+ <link rel="icon" href="{{ "images/favicon.svg" | absURL }}" type="image/svg+xml" />
+ <link rel="apple-touch-icon" href="{{ "images/favicon.svg" | absURL }}" />
+ <link rel="shortcut icon" href="{{ "images/favicon.svg" | absURL }}" />
