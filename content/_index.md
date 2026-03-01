@@ -31,4 +31,4 @@ math: true  # For LaTeX
   </figure>
 </div>
 
- >  Explore advanced quantitative finance.
+ >  Turn off the Lights. Have a sit and Explore advanced quantitative finance. You are in good company!
