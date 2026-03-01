@@ -24,19 +24,5 @@ slug: "about"
 
 ---
 
-### Leave a Message
+{{< tally id="https://tally.so/r/BzG8RR" title="Contact Me" >}}
 
-{{< tally id="YOUR_FORM_ID" title="Contact Me" >}}
-
-<form action="https://formspree.io/f/your-form-id" method="POST" style="display: flex; flex-direction: column; gap: 1rem;">
-  <label for="name">Name:</label>
-  <input type="text" id="name" name="name" required style="padding: 0.5rem; border-radius: 4px; border: 1px solid #ccc;">
-
-  <label for="email">Email:</label>
-  <input type="email" id="email" name="email" required style="padding: 0.5rem; border-radius: 4px; border: 1px solid #ccc;">
-
-  <label for="message">Message:</label>
-  <textarea id="message" name="message" rows="5" required style="padding: 0.5rem; border-radius: 4px; border: 1px solid #ccc;"></textarea>
-
-  <button type="submit" style="padding: 0.75rem; border: none; border-radius: 4px; background-color: #4299e1; color: white; cursor: pointer;">Send Message</button>
-</form>
