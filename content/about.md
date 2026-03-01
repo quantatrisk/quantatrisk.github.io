@@ -26,6 +26,8 @@ slug: "about"
 
 ### Leave a Message
 
+{{< tally id="YOUR_FORM_ID" title="Contact Me" >}}
+
 <form action="https://formspree.io/f/your-form-id" method="POST" style="display: flex; flex-direction: column; gap: 1rem;">
   <label for="name">Name:</label>
   <input type="text" id="name" name="name" required style="padding: 0.5rem; border-radius: 4px; border: 1px solid #ccc;">
