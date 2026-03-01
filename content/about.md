@@ -5,9 +5,9 @@ slug: "about"
 ---
 
 <div style="display: flex; align-items: center; gap: 2rem; margin-bottom: 2rem;">
-  <img src="/path/to/your/profile-picture.jpg" alt="Author's Profile Picture" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover;">
+  <img src="/images/pinaki.jpg" alt="Dr. Pinaki Bhattacharyya" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover;">
   <div>
-    <p>This is a placeholder for your author biography. You can write about your background, interests, and professional experience here. Replace this text with your own bio.</p>
+    <p>Welcome to Dr. Pinaki Bhattacharyya's Quant Finance focussed blog. He holds a PhD in the field of Soft Condensed Matter Theory, Polymer Physics, Nonequilibrium Statistical Mechanics, Complex Fluids and Theoretical Microrheology. Currently he is working in Quantitative Finance, Econophysics, Complex Systems and Model Risk Management domain. This blog is starting out as a single author blog but may include other authors in the future. Focus is long form wikipedia style math and code heavy pedagogical and technical posts blending ideas from physics to finance. If you would like to contribute articles and build this blog as a authoritative quant finance knowledge base then get in touch via the **Contact Form** below. Thanks! and Spread the Word.</p>
   </div>
 </div>
 
