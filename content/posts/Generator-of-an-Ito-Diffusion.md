@@ -86,7 +86,7 @@ dX_t = b(X_t)dt + \sigma(X_t)dB_t,
 \end{equation}
 $$
 
-where $b:R^n→R^n$ is the drift coefficient, s \sigma:Rn→Rn×m is the diffusion coefficient, and $B_t$ is an $m$-dimensional Brownian motion, the generator takes the explicit form[[9]](#ref-9)[[12]](#ref-12)[[11]](#ref-11)
+where $b:R^n→R^n$ is the drift coefficient, $\sigma:R^{n}→R^{n×m}$ is the diffusion coefficient, and $B_t$ is an $m$-dimensional Brownian motion, the generator takes the explicit form[[9]](#ref-9)[[12]](#ref-12)[[11]](#ref-11)
 
 $$
 \begin{equation}  \tag{1.3}
