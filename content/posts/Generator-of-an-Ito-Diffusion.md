@@ -1,4 +1,5 @@
 ---
+doi: 10.yourblog20260106262
 doi: 10.yourblog20260106851
 title: "The Generator of an Itô Diffusion"
 subtitle: "A Gateway to Connecting Stochastic Differential Equations, Partial Differential Equations, and the Feynman-Kac Formula in Quantitative Finance"
@@ -46,6 +47,7 @@ twitter: "quantatrisk"
 github: "quantatrisk/quantatrisk.github.io"
 
 ---
+doi: 10.yourblog20260106262
 doi: 10.yourblog20260106851
 
 <div style="margin-bottom: 2rem;">
