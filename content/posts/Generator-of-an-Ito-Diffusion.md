@@ -157,7 +157,7 @@ $$
 
 where $A^{∗}$ is the Hermitian adjoint (or formal dual) of the generator $A$ with respect to the $L_2$ inner product[[9]](#ref-9)[[4]](#ref-4)[[6]](#ref-6). These two equations—backward and forward—represent complementary perspectives (in other words, they are equivalent) on the same underlying stochastic process: the backward equation describes expectations, while the forward equation describes probability densities.
 
-Quoting from Gardiner [ref]:
+Quoting from Gardiner [[77]](#ref-77):
 
 > The forward equation gives more directly the values of measurable quantities as a function of the observed time $t$, and tends to used more commonly in applications. The backward equation finds most applications in the study of *fist passage time* or *exit problems*, [ref] in which we find the probability that a particle leaves a region in a given time.
 >
@@ -538,5 +538,7 @@ The subsequent sections of this article will develop these topics in depth. We s
 [75] Itô's Calculus and the Derivation of the Black-Scholes ... https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID1285245_code91227.pdf?abstractid=1022386&mirid=1&type=2
 
 [76] Mokobodzki's intervals: An approach to Dynkin games ... https://www.sciencedirect.com/science/article/pii/S0304414925002303
+
+[77] Gardiner, Crispin W. "Handbook of stochastic methods for physics, chemistry and the natural sciences." Springer series in synergetics (1985).
 </div>
 
