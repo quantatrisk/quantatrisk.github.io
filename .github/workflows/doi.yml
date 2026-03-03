@@ -5,7 +5,6 @@ on:
 jobs:
   doi:
     runs-on: ubuntu-latest
-    # Add this permissions block to grant write access
     permissions:
       contents: write
     steps:
@@ -14,13 +13,16 @@ jobs:
       run: |
         cd content/posts
         for post in *.md; do
-          # Extract the date, remove comments, and trim whitespace
-          post_date=$(grep -oP 'date: \K[^#]+' "$post" | xargs)
-          date_fmt=$(date -d "$post_date" +%Y%m%d)
-          slug=$(basename "$post" .md)
-          doi="10.yourblog${date_fmt}${RANDOM:0:3}"
-          # Use sed to append the DOI to avoid duplicates
-          sed -i "/^---/a doi: $doi" "$post"
+          # Only process files that do NOT already have a DOI
+          if ! grep -q "^doi:" "$post"; then
+            echo "Generating DOI for $post"
+            post_date=$(grep -oP 'date: \K[^#]+' "$post" | xargs)
+            date_fmt=$(date -d "$post_date" +%Y%m%d)
+            slug=$(basename "$post" .md)
+            doi="10.yourblog${date_fmt}${RANDOM:0:3}"
+            # Insert the new DOI right after the '---'
+            sed -i "/^---/a doi: $doi" "$post"
+          fi
         done
 
     - uses: stefanzweifel/git-auto-commit-action@v5
