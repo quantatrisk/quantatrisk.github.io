@@ -18,7 +18,7 @@ This page acknowledges the sources, tools, and individuals that have contributed
 
 ### Graphics & Media
 
-** A place to attribute any images, icons, or other media used on the site. **
+**A place to attribute any images, icons, or other media used on the site.**
 
 * Paintings of Picasso on the homepage are taken from [art-picasso.com](http://art-picasso.com/)
 
