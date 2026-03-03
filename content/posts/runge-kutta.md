@@ -1,9 +1,11 @@
 ---
+doi: 10.yourblog20260303537
 doi: 10.yourblog20260303896
 doi: 10.yourblog20260303996
 title: "Secret Bessel Draft"
 draft: true
 ---
+doi: 10.yourblog20260303537
 doi: 10.yourblog20260303896
 doi: 10.yourblog20260303996
 

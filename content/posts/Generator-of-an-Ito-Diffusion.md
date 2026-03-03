@@ -1,4 +1,5 @@
 ---
+doi: 10.yourblog20260106596
 doi: 10.yourblog20260106262
 doi: 10.yourblog20260106851
 title: "The Generator of an Itô Diffusion"
@@ -47,6 +48,7 @@ twitter: "quantatrisk"
 github: "quantatrisk/quantatrisk.github.io"
 
 ---
+doi: 10.yourblog20260106596
 doi: 10.yourblog20260106262
 doi: 10.yourblog20260106851
 
