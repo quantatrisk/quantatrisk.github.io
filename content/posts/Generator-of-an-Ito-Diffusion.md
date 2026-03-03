@@ -68,7 +68,7 @@ The convergence of Feynman's path integral approach in physics and Kac's probabi
 
 ### 1.2 The Infinitesimal Generator: Definition and Intuition
 
-The infinitesimal generator of an Itô diffusion is perhaps best understood through its fundamental definition as a limit[[9]](#ref-9)[[10]](#ref-10)[[11]](#ref-11). For a continuous-time Markov process $X_t$ defined on a probability space, the infinitesimal generator \mathcal{A} of the process is defined formally as
+The infinitesimal generator of an Itô diffusion is perhaps best understood through its fundamental definition as a limit[[9]](#ref-9)[[10]](#ref-10)[[11]](#ref-11). For a continuous-time Markov process $X_t$ defined on a probability space, the infinitesimal generator $\mathcal{A}$ of the process is defined formally as
 
 $$
 \begin{equation}  \tag{1.1}
