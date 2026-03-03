@@ -152,6 +152,10 @@ menu:
       name: "👤 About"
       url: "/about/"
       weight: 50
+    - identifier: "credits"
+      name: "📜 Credits"
+      url: "/credits/"
+      weight: 60
 
 # Taxonomies (Book organization)
 taxonomies:
