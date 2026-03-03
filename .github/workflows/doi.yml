@@ -5,6 +5,9 @@ on:
 jobs:
   doi:
     runs-on: ubuntu-latest
+    # Add this permissions block to grant write access
+    permissions:
+      contents: write
     steps:
     - uses: actions/checkout@v4
     - name: Generate DOIs
