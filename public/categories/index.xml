@@ -6,12 +6,12 @@
     <description>Recent content in Categories on Quant at Risk</description>
     <image>
       <title>Quant at Risk</title>
-      <url>http://localhost:1313/favicon.ico</url>
-      <link>http://localhost:1313/favicon.ico</link>
+      <url>http://localhost:1313/images/favicon.svg</url>
+      <link>http://localhost:1313/images/favicon.svg</link>
     </image>
     <generator>Hugo -- 0.157.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 28 Feb 2026 19:05:47 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 03 Mar 2026 12:05:35 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mathematical Finance</title>
