@@ -24,5 +24,5 @@ slug: "about"
 
 ---
 
-{{< tally id="https://tally.so/r/BzG8RR" title="Contact Me" >}}
+{{< tally id="BzG8RR" title="Contact Me" >}}
 
