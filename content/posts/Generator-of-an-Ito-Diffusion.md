@@ -539,6 +539,6 @@ The subsequent sections of this article will develop these topics in depth. We s
 
 [76] Mokobodzki's intervals: An approach to Dynkin games ... https://www.sciencedirect.com/science/article/pii/S0304414925002303
 
-[77] Gardiner, Crispin W. "Handbook of stochastic methods for physics, chemistry and the natural sciences." Springer series in synergetics (1985).
+<span id="ref-7">[7]</span> [77] Gardiner, Crispin W. "Handbook of stochastic methods for physics, chemistry and the natural sciences." Springer series in synergetics (1985).
 </div>
 
