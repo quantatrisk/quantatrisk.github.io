@@ -11,11 +11,13 @@ jobs:
       run: |
         cd content/posts
         for post in *.md; do
-          post_date=$(sed -n '/date:/s/date: //p' "$post")
+          # Extract the date, remove comments, and trim whitespace
+          post_date=$(grep -oP 'date: \K[^#]+' "$post" | xargs)
           date_fmt=$(date -d "$post_date" +%Y%m%d)
           slug=$(basename "$post" .md)
           doi="10.yourblog${date_fmt}${RANDOM:0:3}"
-          echo "doi: $doi" >> "$post"
+          # Use sed to append the DOI to avoid duplicates
+          sed -i "/^---/a doi: $doi" "$post"
         done
 
     - uses: stefanzweifel/git-auto-commit-action@v5
