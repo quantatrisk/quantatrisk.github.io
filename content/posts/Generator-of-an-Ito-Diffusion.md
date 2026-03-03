@@ -216,7 +216,7 @@ The **Feynman-Kac formula** is perhaps the most powerful result connecting SDEs,
 
 $$
 \begin{equation} \tag{3.1}
-\frac{\partial u}{\partial t}(t,x) + Au(t,x) - r(x,t)u(t,x) + f(x,t) = 0,
+ \frac{\partial u}{\partial t}(t,x) + Au(t,x) - r(x,t)u(t,x) + f(x,t) = 0M_t = f(X_t) - \int_0^t Af(X_s) ds
 \end{equation}
 $$
 
@@ -236,15 +236,11 @@ $$
 
 The derivation of this formula proceeds via Itô's lemma applied to a carefully constructed auxiliary process. Specifically, one defines $g(t,s) = e^{-\int_t^s r(X_r,r)dr}$ and constructs the process
 
-
-
 $$
-\begin{equation} \tag{3.3}
+\begin{equation} \tag{3.4}
 Y_s = g(t,s)u(X_s,s) + \int_t^s g(t,\tau)f(X_\tau,\tau)d\tau.
-\end{_t,s)u(X_s,s) + \int_t^s g(t,\tau)f(X_\tau,\tau)d\tau.
 \end{equation}
 $$
-
 
 
 The crucial observation is that if $u$ satisfies the PDE above, then by Itô's lemma, $Y_s$ is a martingale (the drift term vanishes due to the PDE being satisfied). Consequently, $\mathbb{E}[Y_T|F_t]=Y_t$, which, upon taking expectations and rearranging, yields the desired probabilistic representation[7][26].
@@ -542,5 +538,4 @@ The subsequent sections of this article will develop these topics in depth. We s
 
 [76] Mokobodzki's intervals: An approach to Dynkin games ... https://www.sciencedirect.com/science/article/pii/S0304414925002303
 </div>
-
 
