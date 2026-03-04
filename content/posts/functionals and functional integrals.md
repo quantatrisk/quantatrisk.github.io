@@ -39,3 +39,4 @@ keywords: ["Itô generator", "Feynman-Kac", "stochastic PDEs", "quant finance", 
 # Optional: social sharing
 twitter: "quantatrisk"
 github: "quantatrisk/quantatrisk.github.io"
+---
