@@ -170,7 +170,7 @@ main .picasso-works .work {
 /* --- Print-Specific Styles --- */
 @media print {
   /* Hide elements that are not part of the main content */
-  .header, .sidebar, .post-footer, .post-nav, .comments, .no-print, .citation-block {
+  .header, .sidebar, .post-footer, .post-nav, .comments, .no-print {
     display: none !important;
   }
 
@@ -187,9 +187,19 @@ main .picasso-works .work {
     display: none !important;
   }
 
-  /* Ensure the Table of Contents is visible and expanded */
-  .toc {
+  /* --- Force the Table of Contents to be visible and expanded --- */
+  /* 1. Make the main TOC container visible */
+  details.toc {
     display: block !important;
-    max-height: none !important; /* Override any collapsed height */
+    page-break-after: always; /* Add a page break after the TOC */
+  }
+  /* 2. Force the inner content of the TOC to be visible */
+  details.toc .details {
+    display: block !important;
+    max-height: none !important;
+  }
+  /* 3. Ensure the list itself is visible */
+  details.toc nav#TableOfContents {
+      display: block !important;
   }
 }

@@ -33,8 +33,11 @@
   {{- if (.Param "ShowToc") }}
   {{- partial "toc.html" . }}
   {{- end }}
-    <!-- ADD CITATION HERE -->
-{{ partial "citation.html" . }}
+
+  {{- /* Wrap the citation block so it can be hidden during print */ -}}
+  <div class="citation-block no-print">
+    {{ partial "citation.html" . }}
+  </div>
 
   {{- if .Content }}
   <div class="post-content">
