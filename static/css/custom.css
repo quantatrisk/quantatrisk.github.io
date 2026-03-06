@@ -169,9 +169,10 @@ main .picasso-works .work {
 
 /* --- Print-Specific Styles --- */
 
-/* First, hide the print-only TOC by default */
-.only-print {
-  display: none;
+/* By default, hide the element meant only for printing.
+   This rule is now more specific to avoid being overridden. */
+.post-content .only-print {
+  display: none !important;
 }
 
 @media print {
@@ -195,7 +196,7 @@ main .picasso-works .work {
 
   /* --- TOC Control for Printing --- */
   /* 1. Show the print-only, expanded TOC */
-  .only-print {
+  .post-content .only-print {
     display: block !important;
     page-break-after: always; /* Add a page break after the TOC */
   }
