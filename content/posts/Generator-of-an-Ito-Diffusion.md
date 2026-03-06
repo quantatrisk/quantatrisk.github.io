@@ -47,7 +47,7 @@ github: "quantatrisk/quantatrisk.github.io"
 
 ---
 
-<div style="margin-bottom: 2rem;">
+<div class="no-print" style="margin-bottom: 2rem;">
   <video style="width: 100%; border-radius: 8px;" controls playsinline>
     <source src="/videos/infinitesimal_generator.mp4" type="video/mp4">
     Your browser does not support the video tag.

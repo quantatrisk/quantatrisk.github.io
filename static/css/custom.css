@@ -170,7 +170,7 @@ main .picasso-works .work {
 /* --- Print-Specific Styles --- */
 @media print {
   /* Hide elements that are not part of the main content */
-  .header, .sidebar, .post-footer, .post-nav, .comments, .no-print {
+  .header, .sidebar, .post-footer, .post-nav, .comments, .no-print, .citation-block {
     display: none !important;
   }
 
@@ -185,5 +185,11 @@ main .picasso-works .work {
   /* Hide the print button itself when printing */
   .print-button {
     display: none !important;
+  }
+
+  /* Ensure the Table of Contents is visible and expanded */
+  .toc {
+    display: block !important;
+    max-height: none !important; /* Override any collapsed height */
   }
 }
