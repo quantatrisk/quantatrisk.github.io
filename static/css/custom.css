@@ -168,6 +168,12 @@ main .picasso-works .work {
 }
 
 /* --- Print-Specific Styles --- */
+
+/* First, hide the print-only TOC by default */
+.only-print {
+  display: none;
+}
+
 @media print {
   /* Hide elements that are not part of the main content */
   .header, .sidebar, .post-footer, .post-nav, .comments, .no-print {
@@ -187,23 +193,15 @@ main .picasso-works .work {
     display: none !important;
   }
 
-  /* --- Force the Table of Contents to be visible and expanded --- */
-  /* 1. Force the <details> wrapper to be open */
-  details.toc[open] {
+  /* --- TOC Control for Printing --- */
+  /* 1. Show the print-only, expanded TOC */
+  .only-print {
     display: block !important;
     page-break-after: always; /* Add a page break after the TOC */
   }
 
-  /* 2. Hide the clickable "Table of Contents" summary */
-  details.toc summary {
+  /* 2. Hide the original on-screen TOC */
+  .toc.no-print {
     display: none !important;
-  }
-
-  /* 3. Force the inner container to be fully visible */
-  details.toc .details {
-    display: block !important;
-    max-height: none !important;
-    visibility: visible !important;
-    opacity: 1 !important;
   }
 }

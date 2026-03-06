@@ -1,0 +1,30 @@
+{{- /*
+  Custom Table of Contents Partial
+  - Renders the default, collapsible TOC for screen.
+  - Renders a simple, always-expanded TOC for print.
+*/ -}}
+
+{{- $headers := findRE "<h[1-6].*?>(.|\n])+?</h[1-6]>" .Content -}}
+{{- $has_headers := ge (len $headers) 1 -}}
+
+{{- if $has_headers -}}
+
+  {{- /* --- 1. On-Screen, Collapsible TOC (Original Code) --- */ -}}
+  <div class="toc no-print">
+    <details {{ if .Param "TocOpen" }} open{{ end }}>
+      <summary accesskey="c" title="(Alt + C)">
+        <span class="details">{{ i18n "toc" | default "Table of Contents" }}</span>
+      </summary>
+      <div class="inner">
+        {{ .TableOfContents }}
+      </div>
+    </details>
+  </div>
+
+  {{- /* --- 2. Print-Only, Always-Expanded TOC --- */ -}}
+  <div class="only-print">
+    <h2>Table of Contents</h2>
+    {{ .TableOfContents }}
+  </div>
+
+{{- end -}}
