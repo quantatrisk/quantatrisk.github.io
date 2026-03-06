@@ -1,4 +1,5 @@
 ---
+doi: 10.yourblog20260306132
 title: 'A Tour of Functional Itô Calculus ala Dupire'
 subtitle: 'Learn why do they really matter in finance'
 draft: true
@@ -39,6 +40,7 @@ keywords: ["Functional Itô Calculus", "Dupire", "Path-dependent derivatives", "
 twitter: "quantatrisk"
 github: "quantatrisk/quantatrisk.github.io"
 ---
+doi: 10.yourblog20260306132
 
 ## What is a functional?    
 
