@@ -1,13 +1,31 @@
 ---
-title: "About the Author"
+title: "About this Project"
 layout: "about"
 slug: "about"
 ---
+This project is deeply rooted in a philosophical lineage of intellectual record-keeping, inheriting many of the fundamental motivations famously articulated in George Orwell’s 1946 essay, [Why I Write](https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/why-i-write/). In an era of automated synthesis and ephemeral digital content, the act of technical writing serves as a primary vehicle for coherent thought and cognitive reinforcement—a modern extension of Orwell's "historical impulse" to see things as they are and find true facts for the use of posterity.
+
+[Quant at Risk](https://quantatrisk.github.io/) represents a dedicated, long-term commitment to intellectual exploration and technical discourse. In an era increasingly defined by automated synthesis, this project serves as a vital exercise in coherent thought—utilizing technical writing as a primary vehicle for knowledge retention and conceptual clarity. It is, at its core, a pursuit of rigorous understanding balanced with the intrinsic satisfaction of discovery.
+
+The project’s architecture is centered on long-form, pedagogical monographs that mirror the structural depth of scholarly references. By synthesizing high-level mathematics with executable code, these posts bridge the intersections of theoretical physics, statistics, and mathematical finance.
+
+### Project Objectives
+- **Methodological Rigor:** Prioritizing math-heavy and code-intensive analyses to ensure practical and theoretical utility.
+
+- **Cognitive Reinforcement**: Using the discipline of writing to navigate the complexities of modern quantitative fields.
+
+- **Knowledge Synthesis:** Creating a bridge between classical scientific principles and modern financial applications.
+
+### A Call for Collaboration
+The ultimate vision for this platform is to evolve into an authoritative knowledge base for the quantitative finance community. If you are interested in contributing research-grade articles or collaborative technical insights to help expand this repository, I invite you to reach out via the **Contact Form** below. Thanks! and Spread the Word.
+
+---
+## About the Author
 
 <div style="display: flex; align-items: center; gap: 2rem; margin-bottom: 2rem;">
   <img src="/images/pinaki.jpg" alt="Dr. Pinaki Bhattacharyya" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover;">
   <div>
-    <p>Welcome to Dr. Pinaki Bhattacharyya's Quant Finance focussed blog. He holds a PhD in the field of Soft Condensed Matter Theory, Polymer Physics, Nonequilibrium Statistical Mechanics, Complex Fluids and Theoretical Microrheology. Currently he is working in Quantitative Finance, Econophysics, Complex Systems and Model Risk Management domain. This blog is starting out as a single author blog but may include other authors in the future. Focus is long form wikipedia style math and code heavy pedagogical and technical posts blending ideas from physics to finance. If you would like to contribute articles and build this blog as a authoritative quant finance knowledge base then get in touch via the <strong>Contact Form</strong> below. Thanks! and Spread the Word.</p>
+    <p>Welcome to Dr. Pinaki Bhattacharyya's Quant Finance focussed blog. He holds a PhD in the field of Soft Condensed Matter Theory, Polymer Physics, Nonequilibrium Statistical Mechanics, Complex Fluids and Theoretical Microrheology. Currently he is working in Quantitative Finance, Econophysics, Complex Systems and Model Risk Management domain.</p>
   </div>
 </div>
 
