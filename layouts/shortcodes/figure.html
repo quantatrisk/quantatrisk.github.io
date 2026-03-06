@@ -1,0 +1,35 @@
+{{/*
+  Custom Figure Shortcode with 'size' and 'align'
+  Usage: {{< figure src="..." title="..." size="50%" align="center" >}}
+*/}}
+
+{{- $src := .Get "src" -}}
+{{- $title := .Get "title" -}}
+{{- $alt := .Get "alt" | default ($title | markdownify | plainify) -}}
+{{- $link := .Get "link" -}}
+{{- $size := .Get "size" -}}
+{{- $align := .Get "align" -}}
+
+<figure
+  style="
+    {{- with $size }}width: {{ . }};{{ end -}}
+    {{- if eq $align "center" }}margin-left: auto; margin-right: auto; text-align: center;{{ end -}}
+  "
+>
+  {{- if $link -}}
+    <a href="{{ $link }}" target="_blank" rel="noopener noreferrer">
+  {{- end -}}
+
+  <img
+    loading="lazy"
+    src="{{ $src }}"
+    alt="{{ $alt }}"
+    style="max-width: 100%; height: auto;"
+  />
+
+  {{- if $link }}</a>{{ end -}}
+
+  {{- if $title -}}
+    <figcaption style="white-space: nowrap;">{{ $title | markdownify }}</figcaption>
+  {{- end -}}
+</figure>

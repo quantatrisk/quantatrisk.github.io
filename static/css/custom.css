@@ -145,3 +145,45 @@ main .picasso-works .work {
 .citation-list-block a:hover {
   text-decoration: underline;
 }
+
+/* --- Fancy Alpha List --- */
+/* This targets any ordered list inside our custom div */
+.post-content .fancy-list-alpha ol {
+  list-style-type: lower-alpha; /* Use a, b, c... */
+  padding-left: 1.5em; /* Adjust left padding */
+  margin-top: 1em;
+}
+
+/* This targets the list items themselves */
+.post-content .fancy-list-alpha li {
+  padding-left: 0.5em; /* Space between marker and text */
+  margin-bottom: 0.75em;
+  color: #cbd5e1; /* Match your other text colors */
+}
+
+/* This targets the letter marker (a., b., c.) */
+.post-content .fancy-list-alpha li::marker {
+  color: #60a5fa; /* Your site's accent blue */
+  font-weight: bold;
+}
+
+/* --- Print-Specific Styles --- */
+@media print {
+  /* Hide elements that are not part of the main content */
+  .header, .sidebar, .post-footer, .post-nav, .comments, .no-print {
+    display: none !important;
+  }
+
+  /* Ensure the main content takes up the full width */
+  .main, .post-single {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  /* Hide the print button itself when printing */
+  .print-button {
+    display: none !important;
+  }
+}

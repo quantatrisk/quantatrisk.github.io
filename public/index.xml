@@ -29,5 +29,31 @@
   &lt;div&gt;
     &lt;p&gt;Welcome to Dr. Pinaki Bhattacharyya&#39;s Quant Finance focussed blog. He holds a PhD in the field of Soft Condensed Matter Theory, Polymer Physics, Nonequilibrium Statistical Mechanics, Complex Fluids and Theoretical Microrheology. Currently he is working in Quantitative Finance, Econophysics, Complex Systems and Model Risk Management domain. This blog is starting out as a single author blog but may include other authors in the future. Focus is long form wikipedia style math and code heavy pedagogical and technical posts blending ideas from physics to finance. If you would like to contribute articles and build this blog as a authoritative quant finance knowledge base then get in touch via the &lt;strong&gt;Contact Form&lt;/strong&gt; below. Thanks! and Spread the Word.&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>Credits and Attributions</title>
+      <link>http://localhost:1313/credits/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/credits/</guid>
+      <description>&lt;p&gt;This page acknowledges the sources, tools, and individuals that have contributed to this blog.&lt;/p&gt;
+&lt;h3 id=&#34;content--inspiration&#34;&gt;Content &amp;amp; Inspiration&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;A section to credit academic papers, books, or people who have inspired this work.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;tools--technology&#34;&gt;Tools &amp;amp; Technology&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Hugo:&lt;/strong&gt; The static site generator used to build this website.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;PaperMod Theme:&lt;/strong&gt; The beautiful and functional theme this site is built upon.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tally.so:&lt;/strong&gt; For providing the simple and elegant contact forms.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;graphics--media&#34;&gt;Graphics &amp;amp; Media&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;A place to attribute any images, icons, or other media used on the site.&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>What are &#34;functionals&#34; and &#34;functional integrals&#34;?</title>
+      <link>http://localhost:1313/posts/functionals-and-functional-integrals/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/functionals-and-functional-integrals/</guid>
+      <description>Master the infinitesimal generator of Itô diffusions—the bridge connecting SDEs, PDEs, and Feynman-Kac formula. From Kolmogorov equations to Black-Scholes PDEs and risk-neutral pricing.</description>
+    </item>
   </channel>
 </rss>

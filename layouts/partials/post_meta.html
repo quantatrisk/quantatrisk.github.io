@@ -28,6 +28,9 @@
   {{- end }}
 {{- end }}
 
+{{- /* Add the new Print button partial */ -}}
+{{- $scratch.Add "meta" (slice (partial "print_button.html" .)) -}}
+
 {{- with ($scratch.Get "meta") }}
   {{- delimit . "&nbsp;·&nbsp;" | safeHTML -}}
 {{- end -}}

@@ -11,7 +11,7 @@
     </image>
     <generator>Hugo -- 0.157.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 Mar 2026 12:05:35 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 04 Mar 2026 08:19:47 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Black-Scholes PDE</title>
@@ -81,6 +81,41 @@
       <link>http://localhost:1313/tags/sdes/</link>
       <pubDate>Wed, 07 Jan 2026 00:00:00 +0530</pubDate>
       <guid>http://localhost:1313/tags/sdes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Feynman Integral</title>
+      <link>http://localhost:1313/tags/feynman-integral/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/feynman-integral/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Functional Derivative</title>
+      <link>http://localhost:1313/tags/functional-derivative/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/functional-derivative/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Measure Theory</title>
+      <link>http://localhost:1313/tags/measure-theory/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/measure-theory/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Path Integrals</title>
+      <link>http://localhost:1313/tags/path-integrals/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/path-integrals/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wiener Integral</title>
+      <link>http://localhost:1313/tags/wiener-integral/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/wiener-integral/</guid>
       <description></description>
     </item>
   </channel>
