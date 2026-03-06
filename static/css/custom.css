@@ -188,18 +188,22 @@ main .picasso-works .work {
   }
 
   /* --- Force the Table of Contents to be visible and expanded --- */
-  /* 1. Make the main TOC container visible */
-  details.toc {
+  /* 1. Force the <details> wrapper to be open */
+  details.toc[open] {
     display: block !important;
     page-break-after: always; /* Add a page break after the TOC */
   }
-  /* 2. Force the inner content of the TOC to be visible */
+
+  /* 2. Hide the clickable "Table of Contents" summary */
+  details.toc summary {
+    display: none !important;
+  }
+
+  /* 3. Force the inner container to be fully visible */
   details.toc .details {
     display: block !important;
     max-height: none !important;
-  }
-  /* 3. Ensure the list itself is visible */
-  details.toc nav#TableOfContents {
-      display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
   }
 }
