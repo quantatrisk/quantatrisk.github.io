@@ -51,6 +51,11 @@
 {{- partial "home_info.html" . }}
 {{- end }}
 
+{{- /* Add the "Recent Articles" title on the homepage */ -}}
+{{- if .IsHome }}
+<h2 class="recent-articles-title">Recent Articles</h2>
+{{- end }}
+
 {{- $term := .Data.Term }}
 {{- range $index, $page := $paginator.Pages }}
 
