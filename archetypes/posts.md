@@ -8,22 +8,26 @@ draft: true
 categories:
   - ""
   - ""
+  - ""
 
 # Specific tags (5-10, SEO + discoverability)
 tags:
+  - ""
+  - ""
+  - ""
   - ""
   - ""
 
 # Book series (for multi-part articles)
 series: [""]
 
-# Rendering flags
+# Rendering flags (your MathJax setup)
 math: true
 toc: true
 
-# PaperMod feature image
+# PaperMod feature image (from your generated cover)
 cover:
-  image: "" # /images/posts/your-image.png
+  image: "" # e.g., /images/posts/your-image.png
   alt: ""
   caption: ""
 

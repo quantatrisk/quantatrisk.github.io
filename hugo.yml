@@ -4,6 +4,7 @@ languageCode: "en-us"
 title: "Quant at Risk"
 theme: "PaperMod"
 draft: true
+metaDataFormat: "yaml" # Ensure new content uses YAML front matter
 
 # Book-ready pagination
 pagination:
