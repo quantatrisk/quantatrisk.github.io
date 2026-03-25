@@ -1,4 +1,5 @@
 ---
+doi: 10.yourblog20260325107
 title: 'Global Oil and Gas Markets Logistics Dynamics and Geopolitical Shocks'
 subtitle: ""
 date: 2026-03-25T20:34:57+05:30
@@ -39,6 +40,7 @@ keywords: [""]
 twitter: "quantatrisk"
 github: "quantatrisk/quantatrisk.github.io"
 ---
+doi: 10.yourblog20260325107
 
 # Global Oil and Gas Markets: Logistics, Quantitative Dynamics, and Geopolitical Shocks
 
