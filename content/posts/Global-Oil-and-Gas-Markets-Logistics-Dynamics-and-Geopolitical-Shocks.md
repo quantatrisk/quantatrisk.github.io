@@ -158,7 +158,7 @@ In retaliation, Iran launched missile and drone barrages and issued warnings pro
   {{< figure src="/images/strait-of-hormuz-march2-2026.webp" width="500" height="300" caption="Caption for Image 2" >}}
 </div>
     
-{{< video src="/videos/satellite-tracking-data-hormuz.mp4" width="800px" height="450px" controls="true" preload="metadata" >}}
+{{< video src="/videos/satellite-tracking-data-hormuz.mp4" width="800px" height="450px" caption="Default 16:9" >}}
 
 This blockade effectively severed 20 million barrels of petroleum liquids per day and 20% of the world's LNG supply from the market.22 As regional storage tanks quickly reached maximum capacity, producers were forced into emergency production shut-ins of nearly 7 million barrels per day (mbd), transitioning the crisis from a logistical delay to a permanent loss of physical molecules.26
 
