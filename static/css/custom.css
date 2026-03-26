@@ -205,4 +205,23 @@ article.post-single .only-print {
   article.post-single .toc.no-print {
     display: none !important;
   }
+
+ /* Proportional grid for images */
+.proportional-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  gap: 2rem;
+  max-width: 1100px;
+  margin: 2rem auto;
+}
+.proportional-img {
+  max-width: 500px;
+  max-height: 300px;
+  width: auto;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+.proportional-img:hover { transform: scale(1.02); }
 }

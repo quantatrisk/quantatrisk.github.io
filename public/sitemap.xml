@@ -60,7 +60,7 @@
     <lastmod>2026-03-06T06:27:16+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/about/</loc>
-    <lastmod>2026-03-03T12:12:30+05:30</lastmod>
+    <lastmod>2026-03-06T14:27:31+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/archives/</loc>
     <lastmod>2026-01-02T12:16:49+05:30</lastmod>
@@ -70,34 +70,7 @@
   </url><url>
     <loc>http://localhost:1313/drafts/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/feynman-integral/</loc>
-    <lastmod>2026-03-06T06:15:06+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/functional-derivative/</loc>
-    <lastmod>2026-03-06T06:15:06+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/functional-integrals/</loc>
-    <lastmod>2026-03-06T06:15:06+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/functionals/</loc>
-    <lastmod>2026-03-06T06:15:06+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/measure-theory/</loc>
-    <lastmod>2026-03-06T06:15:06+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/path-integral/</loc>
-    <lastmod>2026-03-06T06:15:06+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/path-integrals/</loc>
-    <lastmod>2026-03-06T06:15:06+05:30</lastmod>
-  </url><url>
     <loc>http://localhost:1313/</loc>
     <lastmod>2026-03-01T10:36:31+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/functionals-and-functional-integrals/</loc>
-    <lastmod>2026-03-06T06:15:06+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/wiener-integral/</loc>
-    <lastmod>2026-03-06T06:15:06+05:30</lastmod>
   </url>
 </urlset>

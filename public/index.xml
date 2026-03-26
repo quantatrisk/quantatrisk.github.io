@@ -45,12 +45,5 @@
 &lt;h3 id=&#34;graphics--media&#34;&gt;Graphics &amp;amp; Media&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;A place to attribute any images, icons, or other media used on the site.&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
-    <item>
-      <title>What are &#34;functionals&#34; and &#34;functional integrals&#34;?</title>
-      <link>http://localhost:1313/posts/functionals-and-functional-integrals/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/functionals-and-functional-integrals/</guid>
-      <description>Master the infinitesimal generator of Itô diffusions—the bridge connecting SDEs, PDEs, and Feynman-Kac formula. From Kolmogorov equations to Black-Scholes PDEs and risk-neutral pricing.</description>
-    </item>
   </channel>
 </rss>

@@ -1,0 +1,6 @@
+{{ $img1 := .Get "img1" }}{{ $cap1 := .Get "cap1" }}{{ $img2 := .Get "img2" }}{{ $cap2 := .Get "cap2" }}
+{{ $w := .Get "width" | default "500px" }}{{ $h := .Get "height" | default "300px" }}
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; max-width: 1100px; margin: 2rem auto;">
+  <figure style="margin: 0; text-align: center;"><img src="{{ $img1 }}" width="{{ $w }}" height="{{ $h }}" style="width: {{ $w }}; height: {{ $h }}; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" alt="1"><figcaption style="font-size: 0.875rem; margin-top: 0.75rem;">{{ $cap1 }}</figcaption></figure>
+  <figure style="margin: 0; text-align: center;"><img src="{{ $img2 }}" width="{{ $w }}" height="{{ $h }}" style="width: {{ $w }}; height: {{ $h }}; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" alt="2"><figcaption style="font-size: 0.875rem; margin-top: 0.75rem;">{{ $cap2 }}</figcaption></figure>
+</div>

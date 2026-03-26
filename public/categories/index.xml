@@ -34,26 +34,5 @@
       <guid>http://localhost:1313/categories/stochastic-processes/</guid>
       <description></description>
     </item>
-    <item>
-      <title>Functional Integrals</title>
-      <link>http://localhost:1313/categories/functional-integrals/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/functional-integrals/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Functionals</title>
-      <link>http://localhost:1313/categories/functionals/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/functionals/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Path Integral</title>
-      <link>http://localhost:1313/categories/path-integral/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/path-integral/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>

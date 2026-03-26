@@ -83,40 +83,5 @@
       <guid>http://localhost:1313/tags/sdes/</guid>
       <description></description>
     </item>
-    <item>
-      <title>Feynman Integral</title>
-      <link>http://localhost:1313/tags/feynman-integral/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/feynman-integral/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Functional Derivative</title>
-      <link>http://localhost:1313/tags/functional-derivative/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/functional-derivative/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Measure Theory</title>
-      <link>http://localhost:1313/tags/measure-theory/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/measure-theory/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Path Integrals</title>
-      <link>http://localhost:1313/tags/path-integrals/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/path-integrals/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Wiener Integral</title>
-      <link>http://localhost:1313/tags/wiener-integral/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/wiener-integral/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>
