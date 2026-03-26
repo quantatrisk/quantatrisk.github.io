@@ -1,0 +1,151 @@
+{{ if .Params.audio_file }}
+<div class="waveform-wrapper">
+    <div class="audio-label">
+        <span class="icon">🔊</span> Audio Overview
+    </div>
+
+    <div id="waveform"></div>
+
+    <div class="waveform-controls">
+        <button id="playPauseBtn" class="play-btn">
+            <span id="playIcon">▶ Play</span>
+        </button>
+
+        <div class="audio-actions">
+            <select id="speedSelect" class="speed-selector" title="Playback Speed">
+                <option value="0.5">0.5x</option>
+                <option value="1" selected>1x</option>
+                <option value="1.25">1.25x</option>
+                <option value="1.5">1.5x</option>
+                <option value="2">2x</option>
+            </select>
+
+            <a href="{{ .Params.audio_file | absURL }}" class="audio-download-link" download title="Download audio">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                    <polyline points="7 10 12 15 17 10"></polyline>
+                    <line x1="12" y1="15" x2="12" y2="3"></line>
+                </svg>
+            </a>
+        </div>
+    </div>
+</div>
+
+<script src="https://unpkg.com/wavesurfer.js@7"></script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const wavesurfer = WaveSurfer.create({
+            container: '#waveform',
+            waveColor: '#999',
+            progressColor: '#ff5500', // SoundCloud Orange
+            cursorColor: '#ff5500',
+            barWidth: 2,
+            barRadius: 3,
+            cursorWidth: 1,
+            height: 60,
+            barGap: 3,
+            url: '{{ .Params.audio_file | absURL }}',
+        });
+
+        const playBtn = document.getElementById('playPauseBtn');
+        const playIcon = document.getElementById('playIcon');
+        const speedSelect = document.getElementById('speedSelect');
+
+        // Play/Pause Toggle
+        playBtn.onclick = () => {
+            wavesurfer.playPause();
+        };
+
+        wavesurfer.on('play', () => {
+            playIcon.textContent = '⏸ Pause';
+        });
+
+        wavesurfer.on('pause', () => {
+            playIcon.textContent = '▶ Play';
+        });
+
+        // Speed Control
+        speedSelect.onchange = () => {
+            wavesurfer.setPlaybackRate(parseFloat(speedSelect.value));
+        };
+    });
+</script>
+
+<style>
+    .waveform-wrapper {
+        margin: 25px 0;
+        padding: 20px;
+        background: var(--code-bg);
+        border-radius: 12px;
+        border: 1px solid var(--border);
+        box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    }
+
+    .audio-label {
+        font-size: 0.8rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-bottom: 15px;
+        color: var(--secondary);
+    }
+
+    #waveform {
+        cursor: pointer;
+        margin-bottom: 15px;
+    }
+
+    .waveform-controls {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 15px;
+    }
+
+    .play-btn {
+        background: #ff5500;
+        color: white;
+        border: none;
+        padding: 8px 20px;
+        border-radius: 4px;
+        font-weight: 600;
+        cursor: pointer;
+        min-width: 90px;
+        transition: transform 0.1s ease;
+    }
+
+    .play-btn:active {
+        transform: scale(0.95);
+    }
+
+    .audio-actions {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .speed-selector {
+        background: var(--tertiary);
+        color: var(--primary);
+        border: 1px solid var(--border);
+        border-radius: 4px;
+        padding: 5px;
+        font-size: 0.75rem;
+    }
+
+    .audio-download-link {
+        display: flex;
+        align-items: center;
+        padding: 8px;
+        background: var(--tertiary);
+        color: var(--primary);
+        border-radius: 4px;
+    }
+
+    .audio-download-link:hover {
+        background: #ff5500;
+        color: #fff;
+    }
+</style>
+{{ end }}

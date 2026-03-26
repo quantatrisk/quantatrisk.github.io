@@ -3,6 +3,7 @@ doi: 10.yourblog20260325107
 title: 'Global Oil and Gas Markets Logistics Dynamics and Geopolitical Shocks'
 subtitle: ""
 date: 2026-03-25T20:34:57+05:30
+audio_file: "/audio/oil-markets-overview.mp3"
 draft: false
 
 # Primary categorization (1-3 max)
@@ -52,7 +53,7 @@ Operating at the intricate intersection of physical molecular flow and abstract 
 
 However, the financialization of energy cannot completely decouple the asset from its physical realities. Energy logistics rely on a fragile network of pipelines, maritime chokepoints, and highly specialized infrastructure. When geopolitical shocks occur, the resulting supply chain disruptions immediately transmit massive volatility spikes into the derivative markets. Understanding the modern energy landscape requires a multidisciplinary approach: analyzing the microstructure of crude pricing, modeling supply chain optimization through linear programming, and applying advanced mathematics to quantify the tail risks of geopolitical warfare.
 
-## 2\. Market Microstructure and Supply Chain Logistics**
+## 2\. Market Microstructure and Supply Chain Logistics
 
 ### 2.1\. Crude Oil Quality and Pricing Benchmarks
 
@@ -97,14 +98,18 @@ The sheer complexity of the aforementioned logistics—balancing continuous pipe
 
 The Depot and Refinery Optimization Problem (DROP) serves as a foundational mathematical framework for the strategic planning of downstream oil supply chains.1 The objective function of the DROP model seeks to minimize the total operational cost ![][image1], over a specified discrete time horizon ![][image2], while meeting exogenous product demands.1 The cost function aggregates raw material supply, industrial transformation, transportation logistics, storage, and spot market interventions 1:
 
-\begin{align}  \tag{2.1}
-g(X, Z, S, X^{spot}, Y^{spot}) = \sum_{n \in N} \sum_{\omega \in \Omega} \sum_{p \in P} \sum_{t \in T} C_{n,p,t} X_{n,\omega,p,t} \qquad \text{SUPPLY} \\\\
- +\sum_{r \in R} \sum_{\omega \in \Omega} \sum_{f \in F} \sum_{s \in S} C_{r,f,s,\omega} Z_{r,f,s,\omega} \quad \text{REFINING} \\\\
-+\sum_{p \in P} \sum_{m \in M} \sum_{p' \in P} \sum_{(i,j) \in A} \sum_{\omega \in \Omega} \sum_{t \in T} C_{i,j,p,m,p',\omega,t} E_{i,j,p,m,p',\omega,t} \qquad \text{TRANSPORTATION} \\\\
-+\sum_{n \in N} \sum_{p \in P} \sum_{t \in T} C_{n,p,t}^{S} S_{n,p,t} \qquad \text{STOCK} \\\\
-+\sum_{n \in N} \sum_{p \in P} \sum_{t \in T} C_{n,p,t}^{spot} X_{n,p,t}^{spot} \qquad \text{SPOT PURCHASE} \\\\
--\sum_{n \in N} \sum_{p \in P} \sum_{t \in T} P_{n,p,t} Y_{n,p,t}^{spot} \quad \text{SPOT SALE}
-\end{align}
+$$
+\begin{equation}  \tag{2.1}
+\begin{aligned}
+g(X, Z, S, X^{spot}, Y^{spot}) &= \sum_{n \in N} \sum_{\omega \in \Omega} \sum_{p \in P} \sum_{t \in T} C_{n,p,t} X_{n,\omega,p,t} \qquad \text{(SUPPLY)} \\\\
+&+ \sum_{r \in R} \sum_{\omega \in \Omega} \sum_{f \in F} \sum_{s \in S} C_{r,f,s,\omega} Z_{r,f,s,\omega} \quad \text{(REFINING)} \\\\
+&+ \sum_{p \in P} \sum_{m \in M} \sum_{p' \in P} \sum_{(i,j) \in A} \sum_{\omega \in \Omega} \sum_{t \in T} C_{i,j,p,m,p',\omega,t} E_{i,j,p,m,p',\omega,t} \qquad \text{(TRANSPORTATION)} \\\\
+&+ \sum_{n \in N} \sum_{p \in P} \sum_{t \in T} C_{n,p,t}^{S} S_{n,p,t} \qquad \text{(STOCK)} \\\\
+&+ \sum_{n \in N} \sum_{p \in P} \sum_{t \in T} C_{n,p,t}^{spot} X_{n,p,t}^{spot} \qquad \text{(SPOT PURCHASE)} \\\\
+&- \sum_{n \in N} \sum_{p \in P} \sum_{t \in T} P_{n,p,t} Y_{n,p,t}^{spot} \quad \text{(SPOT SALE)}
+\end{aligned}
+\end{equation}
+$$
 
 To account for market uncertainty, quantitative analysts utilize stochastic extensions (like DROPS). This approach employs a general-purpose stochastic problem generator, such as STOCHGEN, to create an expansive scenario tree representing the unfolding future.2 Random fluctuations in market demands $D$, spot costs for crude $C$, and refined product prices $P$ are simulated using Brownian motion processes, where the state variable transitions are modeled as $V(D, C, P) = \mu(D, C, P) + \sigma(D, C, P)dZ$. 1 This yields first-stage decisions that are optimally hedged against a wide probability distribution of future scenarios.1
 
@@ -152,23 +157,16 @@ In retaliation, Iran launched missile and drone barrages and issued warnings pro
 
 *Data reflecting market dependencies and at-risk volumes during the March 2026 crisis.* 5
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; max-width: 1100px; margin: 2rem auto;">
-  <figure style="margin: 0;">
-    <img src="/images/posts/strait-of-hormuz-feb27-2026.webp" 
-         style="width: 500px; height: 300px; object-fit: cover; border-radius: 8px;"
-         alt="Feb 27">
-    <figcaption>Feb 27, 2026</figcaption>
-  </figure>
-  <figure style="margin: 0;">
-    <img src="/images/posts/strait-of-hormuz-march2-2026.webp" 
-         style="width: 500px; height: 300px; object-fit: cover; border-radius: 8px;"
-         alt="March 2">
-    <figcaption>March 2, 2026</figcaption>
-  </figure>
+{{< images-pair 
+  img1="/images/posts/strait-of-hormuz-feb27-2026.webp" 
+  full1="/images/posts/strait-of-hormuz-feb27-2026.webp"
+  cap1="Source: Marine Traffic/Kpler" 
+  img2="/images/posts/strait-of-hormuz-march2-2026.webp" 
+  full2="/images/posts/strait-of-hormuz-march2-2026.webp"
+  cap2="Source: Marine Traffic/Kpler"
+  fitmode="contain" width="500px" height="400px" >}}
 
-  <!-- Second image same way -->
-</div>
-{{< video src="/videos/satellite-tracking-data-hormuz.mp4" width="800px" height="450px" caption="Default 16:9" >}}
+{{< video src="/videos/satellite-tracking-data-hormuz.mp4" width="800px" height="450px" caption="Animation from Marine Traffic showing vessels moving through the Strait of Hormuz from 28 February - 2 March, 2026 (Source: https://www.marinetraffic.com/)">}}
 
 This blockade effectively severed 20 million barrels of petroleum liquids per day and 20% of the world's LNG supply from the market.22 As regional storage tanks quickly reached maximum capacity, producers were forced into emergency production shut-ins of nearly 7 million barrels per day (mbd), transitioning the crisis from a logistical delay to a permanent loss of physical molecules.26
 
