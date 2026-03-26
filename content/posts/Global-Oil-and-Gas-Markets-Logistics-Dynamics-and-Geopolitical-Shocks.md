@@ -1,6 +1,6 @@
 ---
 doi: 10.yourblog20260325107
-title: 'Global Oil and Gas Markets: Logistics, Dynamics, and Geopolitical Shocks'
+title: "Global Oil and Gas Markets: Logistics, Dynamics, and Geopolitical Shocks"
 subtitle: ""
 date: 2026-03-25T20:34:57+05:30
 audio_file: "/audio/oil-markets-overview.mp3"
