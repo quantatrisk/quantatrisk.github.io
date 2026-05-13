@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Quant at Risk"
 description: "Mathematical Finance, Stochastic Processes, Risk Modeling"
 homeinfo: true
@@ -15,19 +15,27 @@ math: true  # For LaTeX
 
 
 
-<!-- FULL-VIEWPORT HORIZONTAL PICASSO -->
-<div style="width:100vw;position:relative;left:50%;right:50%;margin-left:-50vw;margin-right:-50vw;padding:3rem 2rem;background:var(--card-bg);display:flex;flex-direction:row;flex-wrap:nowrap;justify-content:center;gap:1.5rem;overflow-x:auto;">
-  <figure style="flex:0 0 280px;margin:0;text-align:center;">
-    <img src="images/home/picasso-1.jpg" style="width:100%;height:240px;object-fit:cover;border-radius:var(--radius);" alt="Picasso">
-    <figcaption style="margin-top:0.5rem;font-size:0.9rem;">Girl with Mandolin (1910)</figcaption>
+<!-- FULL-VIEWPORT HORIZONTAL GALLERY -->
+<div style="width:100vw;position:relative;left:50%;right:50%;margin-left:-50vw;margin-right:-50vw;padding:3rem 1.5rem;background:var(--card-bg);display:flex;flex-direction:row;flex-wrap:nowrap;justify-content:center;align-items:flex-end;gap:1.2rem;overflow-x:auto;">
+  <figure style="flex:0 0 200px;margin:0;text-align:center;">
+    <img src="images/home/picasso-1.jpg" style="width:100%;height:260px;object-fit:contain;border-radius:var(--radius);" alt="Picasso – Girl with Mandolin">
+    <figcaption style="margin-top:0.5rem;font-size:0.82rem;">Girl with Mandolin (1910)</figcaption>
   </figure>
-  <figure style="flex:0 0 280px;margin:0;text-align:center;">
-    <img src="images/home/picasso-2.jpg" style="width:100%;height:240px;object-fit:cover;border-radius:var(--radius);" alt="Picasso">
-    <figcaption style="margin-top:0.5rem;font-size:0.9rem;">The Pigeon Pea (1912)</figcaption>
+  <figure style="flex:0 0 200px;margin:0;text-align:center;">
+    <img src="images/home/picasso-2.jpg" style="width:100%;height:260px;object-fit:contain;border-radius:var(--radius);" alt="Picasso – The Pigeon Pea">
+    <figcaption style="margin-top:0.5rem;font-size:0.82rem;">The Pigeon Pea (1912)</figcaption>
   </figure>
-  <figure style="flex:0 0 280px;margin:0;text-align:center;">
-    <img src="images/home/picasso-3.jpg" style="width:100%;height:240px;object-fit:cover;border-radius:var(--radius);" alt="Picasso">
-    <figcaption style="margin-top:0.5rem;font-size:0.9rem;">Portrait of Ambroise Vollard (1910)</figcaption>
+  <figure style="flex:0 0 200px;margin:0;text-align:center;">
+    <img src="images/home/picasso-3.jpg" style="width:100%;height:260px;object-fit:contain;border-radius:var(--radius);" alt="Picasso – Portrait of Ambroise Vollard">
+    <figcaption style="margin-top:0.5rem;font-size:0.82rem;">Portrait of Ambroise Vollard (1910)</figcaption>
+  </figure>
+  <figure style="flex:0 0 200px;margin:0;text-align:center;">
+    <img src="images/home/dali.png" style="width:100%;height:260px;object-fit:contain;border-radius:var(--radius);" alt="Salvador Dalí">
+    <figcaption style="margin-top:0.5rem;font-size:0.82rem;">Salvador Dalí</figcaption>
+  </figure>
+  <figure style="flex:0 0 200px;margin:0;text-align:center;">
+    <img src="images/home/gajagamini.jpg" style="width:100%;height:260px;object-fit:contain;border-radius:var(--radius);" alt="Gajagamini">
+    <figcaption style="margin-top:0.5rem;font-size:0.82rem;">Gajagamini</figcaption>
   </figure>
 </div>
 
