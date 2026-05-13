@@ -239,6 +239,7 @@ In physics, "space" is the physical volume where a continuous field $\phi(\mathb
 Here is exactly what these terms mean when applied to a financial market.
 
 ---
+doi: 10.yourblog20260513290
 
 ### 1. Spatial Degrees of Freedom in Finance
 
@@ -300,6 +301,7 @@ This is why, mathematically, a complex high-dimensional network of 500 interacti
 To make this intuitive, we can visualize the mathematical collapse of spatial degrees of freedom into a single coarse-grained index as systemic coupling increases.
 
 ---
+doi: 10.yourblog20260513290
 
  ### Why description in terms of an "Order Parameter"?
  
@@ -345,6 +347,7 @@ To make this intuitive, we can visualize the mathematical collapse of spatial de
  In summary, when a theoretical physicist looks at the S&P 500, they see interacting spins on a network. When they look at a forest transitioning to a savanna, they see a 2D scalar field theory undergoing a non-equilibrium phase transition driven by the exact same symmetries and divergences found in Model A dynamics.
 
 ---
+doi: 10.yourblog20260513290
 
  # Computational Issues in Real-World Data Analysis (Need more in-depth research)
 
@@ -354,6 +357,7 @@ The computational friction encountered near critical points—often called "Crit
 Here is a deep dive into why this numerical paralysis occurs, how modern algorithms bypass it, and the state-of-the-art methodologies for extracting Early Warning Signals (EWS) from noisy, real-world datasets.
 
 ---
+doi: 10.yourblog20260513290
 
 ## 1. The Computational Reality of Critical Slowing Down
 
@@ -383,6 +387,7 @@ To bypass this, physicists developed **Cluster Algorithms** (Swendsen-Wang, Wolf
 When developing domain-specific AI or systematic risk models, applying graph-theoretic cluster updates to highly correlated networks (e.g., during a market liquidity crisis where correlation matrices approach a rank-1 state) is essential for efficient sampling.
 
 ---
+doi: 10.yourblog20260513290
 
 ## 2. Real-World EWS: The Methodological Deep Dive
 
