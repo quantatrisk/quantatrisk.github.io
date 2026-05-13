@@ -16,7 +16,7 @@ math: true  # For LaTeX
 
 
 <!-- FULL-VIEWPORT HORIZONTAL GALLERY -->
-<div style="width:100vw;position:relative;left:50%;right:50%;margin-left:-50vw;margin-right:-50vw;padding:3rem 1.5rem;background:var(--card-bg);display:flex;flex-direction:row;flex-wrap:nowrap;justify-content:center;align-items:flex-end;gap:1.2rem;overflow-x:auto;">
+<div style="width:100vw;position:relative;left:50%;right:50%;margin-left:-50vw;margin-right:-50vw;padding:3rem 1.5rem;background:var(--card-bg);display:flex;flex-direction:row;flex-wrap:nowrap;justify-content:center;align-items:flex-start;gap:1.2rem;overflow-x:auto;">
   <figure style="flex:0 0 200px;margin:0;text-align:center;">
     <img src="images/home/picasso-1.jpg" style="width:100%;height:260px;object-fit:contain;border-radius:var(--radius);" alt="Picasso – Girl with Mandolin">
     <figcaption style="margin-top:0.5rem;font-size:0.82rem;">Girl with Mandolin (1910)</figcaption>
