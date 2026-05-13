@@ -36,7 +36,8 @@ math: true  # For LaTeX
   </figure>
   <figure style="flex:0 0 200px;margin:0;text-align:center;">
     <img src="images/home/dali.png" style="width:100%;height:260px;object-fit:contain;border-radius:var(--radius);" alt="Salvador Dalí">
-    <figcaption style="margin-top:0.5rem;font-size:0.82rem;">Salvador Dalí</figcaption>
+    <figcaption style="margin-top:0.5rem;font-size:0.82rem;"> Gala Contemplating the Mediterranean Sea, Salvador Dalí <br>
+    (a painting with multiscale intermediate asymptotics)</figcaption>
   </figure>
   <figure style="flex:0 0 200px;margin:0;text-align:center;">
     <img src="images/home/gajagamini.jpg" style="width:100%;height:260px;object-fit:contain;border-radius:var(--radius);" alt="Gajagamini">
