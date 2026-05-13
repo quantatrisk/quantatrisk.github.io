@@ -2,127 +2,162 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Quant at Risk</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>http://localhost:39825/tags/</link>
     <description>Recent content in Tags on Quant at Risk</description>
     <image>
       <title>Quant at Risk</title>
-      <url>http://localhost:1313/images/favicon.svg</url>
-      <link>http://localhost:1313/images/favicon.svg</link>
+      <url>http://localhost:39825/images/favicon.svg</url>
+      <link>http://localhost:39825/images/favicon.svg</link>
     </image>
-    <generator>Hugo -- 0.157.0</generator>
+    <generator>Hugo -- 0.161.1</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 26 Mar 2026 14:14:38 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:39825/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Commodities</title>
-      <link>http://localhost:1313/tags/commodities/</link>
+      <link>http://localhost:39825/tags/commodities/</link>
       <pubDate>Wed, 25 Mar 2026 20:34:57 +0530</pubDate>
-      <guid>http://localhost:1313/tags/commodities/</guid>
+      <guid>http://localhost:39825/tags/commodities/</guid>
       <description></description>
     </item>
     <item>
       <title>Geopolitical Shocks</title>
-      <link>http://localhost:1313/tags/geopolitical-shocks/</link>
+      <link>http://localhost:39825/tags/geopolitical-shocks/</link>
       <pubDate>Wed, 25 Mar 2026 20:34:57 +0530</pubDate>
-      <guid>http://localhost:1313/tags/geopolitical-shocks/</guid>
+      <guid>http://localhost:39825/tags/geopolitical-shocks/</guid>
       <description></description>
     </item>
     <item>
       <title>Natural Gas</title>
-      <link>http://localhost:1313/tags/natural-gas/</link>
+      <link>http://localhost:39825/tags/natural-gas/</link>
       <pubDate>Wed, 25 Mar 2026 20:34:57 +0530</pubDate>
-      <guid>http://localhost:1313/tags/natural-gas/</guid>
+      <guid>http://localhost:39825/tags/natural-gas/</guid>
       <description></description>
     </item>
     <item>
       <title>Oil</title>
-      <link>http://localhost:1313/tags/oil/</link>
+      <link>http://localhost:39825/tags/oil/</link>
       <pubDate>Wed, 25 Mar 2026 20:34:57 +0530</pubDate>
-      <guid>http://localhost:1313/tags/oil/</guid>
+      <guid>http://localhost:39825/tags/oil/</guid>
       <description></description>
     </item>
     <item>
       <title>Petrochemicals</title>
-      <link>http://localhost:1313/tags/petrochemicals/</link>
+      <link>http://localhost:39825/tags/petrochemicals/</link>
       <pubDate>Wed, 25 Mar 2026 20:34:57 +0530</pubDate>
-      <guid>http://localhost:1313/tags/petrochemicals/</guid>
+      <guid>http://localhost:39825/tags/petrochemicals/</guid>
       <description></description>
     </item>
     <item>
       <title>Supply Chain Logistics</title>
-      <link>http://localhost:1313/tags/supply-chain-logistics/</link>
+      <link>http://localhost:39825/tags/supply-chain-logistics/</link>
       <pubDate>Wed, 25 Mar 2026 20:34:57 +0530</pubDate>
-      <guid>http://localhost:1313/tags/supply-chain-logistics/</guid>
+      <guid>http://localhost:39825/tags/supply-chain-logistics/</guid>
       <description></description>
     </item>
     <item>
       <title>Black-Scholes PDE</title>
-      <link>http://localhost:1313/tags/black-scholes-pde/</link>
+      <link>http://localhost:39825/tags/black-scholes-pde/</link>
       <pubDate>Wed, 07 Jan 2026 00:00:00 +0530</pubDate>
-      <guid>http://localhost:1313/tags/black-scholes-pde/</guid>
+      <guid>http://localhost:39825/tags/black-scholes-pde/</guid>
       <description></description>
     </item>
     <item>
       <title>Dynkin&#39;s Formula</title>
-      <link>http://localhost:1313/tags/dynkins-formula/</link>
+      <link>http://localhost:39825/tags/dynkins-formula/</link>
       <pubDate>Wed, 07 Jan 2026 00:00:00 +0530</pubDate>
-      <guid>http://localhost:1313/tags/dynkins-formula/</guid>
+      <guid>http://localhost:39825/tags/dynkins-formula/</guid>
       <description></description>
     </item>
     <item>
       <title>Feynman-Kac Formula</title>
-      <link>http://localhost:1313/tags/feynman-kac-formula/</link>
+      <link>http://localhost:39825/tags/feynman-kac-formula/</link>
       <pubDate>Wed, 07 Jan 2026 00:00:00 +0530</pubDate>
-      <guid>http://localhost:1313/tags/feynman-kac-formula/</guid>
+      <guid>http://localhost:39825/tags/feynman-kac-formula/</guid>
       <description></description>
     </item>
     <item>
       <title>Infinitesimal Generator</title>
-      <link>http://localhost:1313/tags/infinitesimal-generator/</link>
+      <link>http://localhost:39825/tags/infinitesimal-generator/</link>
       <pubDate>Wed, 07 Jan 2026 00:00:00 +0530</pubDate>
-      <guid>http://localhost:1313/tags/infinitesimal-generator/</guid>
+      <guid>http://localhost:39825/tags/infinitesimal-generator/</guid>
       <description></description>
     </item>
     <item>
       <title>Itô Diffusion</title>
-      <link>http://localhost:1313/tags/it%C3%B4-diffusion/</link>
+      <link>http://localhost:39825/tags/it%C3%B4-diffusion/</link>
       <pubDate>Wed, 07 Jan 2026 00:00:00 +0530</pubDate>
-      <guid>http://localhost:1313/tags/it%C3%B4-diffusion/</guid>
+      <guid>http://localhost:39825/tags/it%C3%B4-diffusion/</guid>
       <description></description>
     </item>
     <item>
       <title>Kolmogorov Equations</title>
-      <link>http://localhost:1313/tags/kolmogorov-equations/</link>
+      <link>http://localhost:39825/tags/kolmogorov-equations/</link>
       <pubDate>Wed, 07 Jan 2026 00:00:00 +0530</pubDate>
-      <guid>http://localhost:1313/tags/kolmogorov-equations/</guid>
+      <guid>http://localhost:39825/tags/kolmogorov-equations/</guid>
       <description></description>
     </item>
     <item>
       <title>PDEs</title>
-      <link>http://localhost:1313/tags/pdes/</link>
+      <link>http://localhost:39825/tags/pdes/</link>
       <pubDate>Wed, 07 Jan 2026 00:00:00 +0530</pubDate>
-      <guid>http://localhost:1313/tags/pdes/</guid>
+      <guid>http://localhost:39825/tags/pdes/</guid>
       <description></description>
     </item>
     <item>
       <title>Quantitative Finance</title>
-      <link>http://localhost:1313/tags/quantitative-finance/</link>
+      <link>http://localhost:39825/tags/quantitative-finance/</link>
       <pubDate>Wed, 07 Jan 2026 00:00:00 +0530</pubDate>
-      <guid>http://localhost:1313/tags/quantitative-finance/</guid>
+      <guid>http://localhost:39825/tags/quantitative-finance/</guid>
       <description></description>
     </item>
     <item>
       <title>Risk-Neutral Pricing</title>
-      <link>http://localhost:1313/tags/risk-neutral-pricing/</link>
+      <link>http://localhost:39825/tags/risk-neutral-pricing/</link>
       <pubDate>Wed, 07 Jan 2026 00:00:00 +0530</pubDate>
-      <guid>http://localhost:1313/tags/risk-neutral-pricing/</guid>
+      <guid>http://localhost:39825/tags/risk-neutral-pricing/</guid>
       <description></description>
     </item>
     <item>
       <title>SDEs</title>
-      <link>http://localhost:1313/tags/sdes/</link>
+      <link>http://localhost:39825/tags/sdes/</link>
       <pubDate>Wed, 07 Jan 2026 00:00:00 +0530</pubDate>
-      <guid>http://localhost:1313/tags/sdes/</guid>
+      <guid>http://localhost:39825/tags/sdes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Feynman Integral</title>
+      <link>http://localhost:39825/tags/feynman-integral/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:39825/tags/feynman-integral/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Functional Derivative</title>
+      <link>http://localhost:39825/tags/functional-derivative/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:39825/tags/functional-derivative/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Measure Theory</title>
+      <link>http://localhost:39825/tags/measure-theory/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:39825/tags/measure-theory/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Path Integrals</title>
+      <link>http://localhost:39825/tags/path-integrals/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:39825/tags/path-integrals/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wiener Integral</title>
+      <link>http://localhost:39825/tags/wiener-integral/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:39825/tags/wiener-integral/</guid>
       <description></description>
     </item>
   </channel>

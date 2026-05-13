@@ -1,7 +1,10 @@
 :root {
-  --gap: 3rem;              /* Sidebar gap */
-  --article-width: 900px;   /* Post content width */
-  --main-width: 1200px;     /* Overall container */
+  --gap: 3rem;
+  /* Sidebar gap */
+  --article-width: 900px;
+  /* Post content width */
+  --main-width: 1200px;
+  /* Overall container */
 }
 
 /* Target the actual post article */
@@ -15,7 +18,8 @@
 /* Responsive */
 @media (min-width: 1024px) {
   .article-entry {
-    max-width: 1100px !important;  /* Wide screens */
+    max-width: 1100px !important;
+    /* Wide screens */
   }
 }
 
@@ -63,13 +67,21 @@ main .picasso-works .work {
 
 /* Kill ALL PaperMod flex overrides */
 @media (max-width: 1200px) {
-  main .picasso-works { flex-direction: row !important; }
+  main .picasso-works {
+    flex-direction: row !important;
+  }
 }
+
 @media (max-width: 768px) {
-  main .picasso-works { flex-direction: row !important; }
+  main .picasso-works {
+    flex-direction: row !important;
+  }
 }
+
 @media (max-width: 480px) {
-  .picasso-works .work { flex: 0 0 42% !important; }
+  .picasso-works .work {
+    flex: 0 0 42% !important;
+  }
 }
 
 /* Main citation block at the top of the post */
@@ -80,7 +92,8 @@ main .picasso-works .work {
   border-radius: 8px !important;
 }
 
-.citation-block h2, .citation-block h3 {
+.citation-block h2,
+.citation-block h3 {
   color: #e2e8f0 !important;
   font-size: 1.3em !important;
   margin: 0 0 1rem 0 !important;
@@ -130,7 +143,8 @@ main .picasso-works .work {
 
 .citation-list-block li {
   margin-bottom: 1em;
-  color: #cbd5e1; /* Lighter text for readability */
+  color: #cbd5e1;
+  /* Lighter text for readability */
 }
 
 .citation-list-block li:last-child {
@@ -138,7 +152,8 @@ main .picasso-works .work {
 }
 
 .citation-list-block a {
-  color: #60a5fa; /* Bright blue for links */
+  color: #60a5fa;
+  /* Bright blue for links */
   text-decoration: none;
 }
 
@@ -149,21 +164,26 @@ main .picasso-works .work {
 /* --- Fancy Alpha List --- */
 /* This targets any ordered list inside our custom div */
 .post-content .fancy-list-alpha ol {
-  list-style-type: lower-alpha; /* Use a, b, c... */
-  padding-left: 1.5em; /* Adjust left padding */
+  list-style-type: lower-alpha;
+  /* Use a, b, c... */
+  padding-left: 1.5em;
+  /* Adjust left padding */
   margin-top: 1em;
 }
 
 /* This targets the list items themselves */
 .post-content .fancy-list-alpha li {
-  padding-left: 0.5em; /* Space between marker and text */
+  padding-left: 0.5em;
+  /* Space between marker and text */
   margin-bottom: 0.75em;
-  color: #cbd5e1; /* Match your other text colors */
+  color: #cbd5e1;
+  /* Match your other text colors */
 }
 
 /* This targets the letter marker (a., b., c.) */
 .post-content .fancy-list-alpha li::marker {
-  color: #60a5fa; /* Your site's accent blue */
+  color: #60a5fa;
+  /* Your site's accent blue */
   font-weight: bold;
 }
 
@@ -176,13 +196,20 @@ article.post-single .only-print {
 }
 
 @media print {
+
   /* Hide elements that are not part of the main content */
-  .header, .sidebar, .post-footer, .post-nav, .comments, .no-print {
+  .header,
+  .sidebar,
+  .post-footer,
+  .post-nav,
+  .comments,
+  .no-print {
     display: none !important;
   }
 
   /* Ensure the main content takes up the full width */
-  .main, .post-single {
+  .main,
+  .post-single {
     width: 100% !important;
     max-width: 100% !important;
     padding: 0 !important;
@@ -198,7 +225,8 @@ article.post-single .only-print {
   /* 1. Show the print-only, expanded TOC */
   article.post-single .only-print {
     display: block !important;
-    page-break-after: always; /* Add a page break after the TOC */
+    page-break-after: always;
+    /* Add a page break after the TOC */
   }
 
   /* 2. Hide the original on-screen TOC */
@@ -206,22 +234,72 @@ article.post-single .only-print {
     display: none !important;
   }
 
- /* Proportional grid for images */
-.proportional-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
-  gap: 2rem;
-  max-width: 1100px;
-  margin: 2rem auto;
+  /* Proportional grid for images */
+  .proportional-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    gap: 2rem;
+    max-width: 1100px;
+    margin: 2rem auto;
+  }
+
+  .proportional-img {
+    max-width: 500px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+
+  .proportional-img:hover {
+    transform: scale(1.02);
+  }
 }
-.proportional-img {
-  max-width: 500px;
-  max-height: 300px;
-  width: auto;
+
+/* =============================================
+   Custom Figure Shortcode Styles
+   ============================================= */
+
+.custom-figure {
+  display: block;
+  padding: 0;
+}
+
+.custom-figure img {
+  max-width: 100%;
   height: auto;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  transition: transform 0.3s ease;
+  display: block;
 }
-.proportional-img:hover { transform: scale(1.02); }
+
+.custom-figure figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.9em;
+  color: var(--secondary, #888);
+  line-height: 1.4;
+}
+
+/* Alignment variants — !important overrides PaperMod's figure margins */
+.custom-figure.figure-center {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: center;
+}
+
+.custom-figure.figure-center img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.custom-figure.figure-right {
+  margin-left: auto !important;
+  margin-right: 0 !important;
+  text-align: right;
+}
+
+.custom-figure.figure-left {
+  margin-left: 0 !important;
+  margin-right: auto !important;
+  text-align: left;
 }

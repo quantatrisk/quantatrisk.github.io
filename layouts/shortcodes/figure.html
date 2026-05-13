@@ -1,35 +1,55 @@
 {{/*
-  Custom Figure Shortcode with 'size' and 'align'
-  Usage: {{< figure src="..." title="..." size="50%" align="center" >}}
+  Custom Figure Shortcode
+  Usage: {{< figure src="..." title="..." alt="..." size="50%" align="center" class="hero" loading="eager" >}}
+
+  Parameters:
+    src      - Image path (required)
+    title    - Caption text below image (supports markdown)
+    alt      - Alt text (defaults to title if omitted)
+    size     - Figure width, e.g. "50%" or "400px"
+    align    - "center", "left", or "right"
+    class    - Extra CSS class(es) applied to the <figure>
+    link     - Wraps image in a clickable link
+    loading  - "lazy" (default) or "eager" for above-fold images
 */}}
 
-{{- $src := .Get "src" -}}
-{{- $title := .Get "title" -}}
-{{- $alt := .Get "alt" | default ($title | markdownify | plainify) -}}
-{{- $link := .Get "link" -}}
-{{- $size := .Get "size" -}}
-{{- $align := .Get "align" -}}
+{{- $src     := .Get "src" -}}
+{{- $title   := .Get "title" -}}
+{{- $alt     := .Get "alt" | default ($title | markdownify | plainify) -}}
+{{- $link    := .Get "link" -}}
+{{- $size    := .Get "size" | default "100%" -}}
+{{- $align   := .Get "align" | default "center" -}}
+{{- $class   := .Get "class" -}}
+{{- $loading := .Get "loading" | default "lazy" -}}
 
-<figure
-  style="
-    {{- with $size }}width: {{ . }};{{ end -}}
-    {{- if eq $align "center" }}margin-left: auto; margin-right: auto; text-align: center;{{ end -}}
-  "
->
+{{/* Build CSS classes */}}
+{{- $classes := slice "custom-figure" -}}
+{{- if eq $align "center" -}}
+  {{- $classes = $classes | append "figure-center" -}}
+{{- else if eq $align "right" -}}
+  {{- $classes = $classes | append "figure-right" -}}
+{{- else if eq $align "left" -}}
+  {{- $classes = $classes | append "figure-left" -}}
+{{- end -}}
+{{- with $class -}}
+  {{- $classes = $classes | append . -}}
+{{- end -}}
+
+<figure class="{{ delimit $classes " " }}" {{ with $size }}style="max-width: {{ . }}"{{ end }}>
   {{- if $link -}}
     <a href="{{ $link }}" target="_blank" rel="noopener noreferrer">
   {{- end -}}
 
   <img
-    loading="lazy"
+    loading="{{ $loading }}"
     src="{{ $src }}"
     alt="{{ $alt }}"
-    style="max-width: 100%; height: auto;"
   />
 
   {{- if $link }}</a>{{ end -}}
 
   {{- if $title -}}
-    <figcaption style="white-space: nowrap;">{{ $title | markdownify }}</figcaption>
+    <figcaption>{{ $title | markdownify }}</figcaption>
   {{- end -}}
 </figure>
+

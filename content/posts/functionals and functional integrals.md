@@ -2,7 +2,7 @@
 doi: 10.yourblog20260304291
 title: 'What are "functionals" and "functional integrals"?'
 subtitle: 'Learn why do they really matter in finance'
-draft: true
+draft: false
 
 # Primary categorization (1-3 max)
 categories:
@@ -41,7 +41,7 @@ twitter: "quantatrisk"
 github: "quantatrisk/quantatrisk.github.io"
 ---
 
-## What is a functional?
+## 1\. What is a functional?
 
 One says that a **functional** is given if a rule is fixed that associates a number to every function from certain function family. Thus, it is a **mapping** from a set of functions to a set of numbers. It is a **generalization** of the idea of a function of several variables to the realm of a *function of infinitely many variables*, the values of the argument function. For example, $sin(x^2)$ is not a functional. On the other hand
 
@@ -149,16 +149,71 @@ $$
 \end{equation}
 $$
 
-## Functional Representation of Problem Solution
-### Variational (Functional) Derivatives
+## 2\. Functional Representation of Problem Solution
 
 Before really diving into this section, lets give some examples of functionals:
 
 <div class="fancy-list-alpha">
+
+Here are some examples of functionals.
+
+$(a)$. The functional $F [ f ]$ operates on the function $f$ as follows:
+
+$$F [ f ] = \int _ { 0 } ^ { 1 } f ( x ) \, d x .$$
+
+Hence, given the function $f ( x ) = x^2$ , the functional returns the number
+
+$$F [ f ] = \int _ { 0 } ^ { 1 } x ^ { 2 } \, d x = \frac { 1 } { 3 } .$$
+
+$(b)$. The functional G [ f ] operates on the function f as follows:
+
+$$G [ f ] = \int _ { - a } ^ { a } 5 [ f ( x ) ] ^ { 2 } \, \mathrm d x .$$
+Hence, given the function $f ( x ) = x^2$ , the functional returns the number
+
+$$G [ f ] = \int _ { - a } ^ { a } 5 x ^ { 4 } \, d x = 2 a ^ { 5 } .$$
+
+$(c)$. A function can be thought of as a trivial functional. For example, the functional $F_x[f]$ given by
+
+$$F _ { x } [ f ] = \int _ { - \infty } ^ { \infty } f ( y ) \delta ( y - x ) \text {d} y = f ( x ).$$
+
+returns the value of the function evaluated at $x$ .
+
+$(d)$ $$ \quad F [ \varphi ( \tau ) ] = \overset { t _ { 2 } } { \int } d \tau a ( \tau ) \varphi ( \tau ) ,$$
+
+where $a(t)$ is the given (fixed) function and limits $t_1$ and $t_2$ can be both finite and infinite. This is the linear functional.
+
+$(e)$ $$\quad F [ \varphi ( \tau ) ] = \overset { t _ { 2 } } { \int } \overset { t _ { 2 } } { \int } d \tau _ { 1 } d \tau _ { 2 } B ( \tau _ { 1 } , \tau _ { 2 } ) \varphi ( \tau _ { 1 } ) \varphi ( \tau _ { 2 } ) ,$$
+
+where $B(t_1,t_2)$ is the given (fixed) function. This is the quadratic functional.
+
+$(f)$ $$F [ \varphi ( \tau ) ] = f \left ( \Phi [ \varphi ( \tau ) ] \right ) ,$$
+
+where $f(x)$ is the given function and quantity $\Phi[\phi(\tau)]$ is the functional.
+
+### Variational (Functional) Derivatives
+
+We now want to see how a functional changes as you adjust the function which is fed into it. The functional derivative tells you how the number returned by the functional $F [ f ( x )]$ changes as you slightly change the function $f ( x )$ that you feed into the machine.
+
+Estimate the difference between the values of a functional calculated for functions $\phi(\tau)$ and $\phi(\tau)+\delta(\tau)$ for $t -\Delta \tau/2 < \tau < t + \Delta \tau/2$ (see Fig. 1.1).
+
+{{< figure src="/images/posts/variational-derivative.jpg" title="**Fig. 1.1** — Definition of the functional derivative: the variation $\delta\varphi(\tau)$ is nonzero only in the interval $[t - \Delta\tau/2,\; t + \Delta\tau/2]$" alt="Graph showing the original function phi of tau as a solid curve and the perturbed function phi plus delta-phi as a dashed curve, with the variation localized in the interval from t minus delta-tau over 2 to t plus delta-tau over 2" align="center" size="30%" >}}
+
+
+The variation of a functional is defined as the linear (in $\delta \phi (\tau)$ ) portion of the difference
+
+$$\delta F [ \varphi ( \tau ) ] = \{ F \left [ \varphi ( \tau ) + \delta \varphi ( \tau ) \right ] - F [ \varphi ( \tau ) ] \} \, .$$
+
+
+The limit
+$$
+\begin{equation} \tag{2.1}
+\frac{}{}\frac{\delta F[\phi(\tau)]}{\delta \phi(\tau)dt}=\displaystyle \lim_{\Delta \tau \to 0}\frac{\delta \phi(\tau)}{\int_{\Delta \tau}^{}d\tau \delta \phi(\tau)}
+\end{equation}
+$$
+
 
 1. First item
 2. Second item
 
 </div>
 
-{{< figure src="/images/posts/variational-derivative.jpg" title="Fig. 1 Definition of the functional derivative" align="center" size="30%" >}}

@@ -2,31 +2,62 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Quant at Risk</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>http://localhost:39825/posts/</link>
     <description>Recent content in Posts on Quant at Risk</description>
     <image>
       <title>Quant at Risk</title>
-      <url>http://localhost:1313/images/favicon.svg</url>
-      <link>http://localhost:1313/images/favicon.svg</link>
+      <url>http://localhost:39825/images/favicon.svg</url>
+      <link>http://localhost:39825/images/favicon.svg</link>
     </image>
-    <generator>Hugo -- 0.157.0</generator>
+    <generator>Hugo -- 0.161.1</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 26 Mar 2026 14:14:38 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:39825/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Global Oil and Gas Markets: Logistics, Dynamics, and Geopolitical Shocks</title>
-      <link>http://localhost:1313/posts/global-oil-and-gas-markets-logistics-dynamics-and-geopolitical-shocks/</link>
+      <link>http://localhost:39825/posts/global-oil-and-gas-markets-logistics-dynamics-and-geopolitical-shocks/</link>
       <pubDate>Wed, 25 Mar 2026 20:34:57 +0530</pubDate>
-      <guid>http://localhost:1313/posts/global-oil-and-gas-markets-logistics-dynamics-and-geopolitical-shocks/</guid>
+      <guid>http://localhost:39825/posts/global-oil-and-gas-markets-logistics-dynamics-and-geopolitical-shocks/</guid>
       <description>&lt;h1 id=&#34;global-oil-and-gas-markets-logistics-quantitative-dynamics-and-geopolitical-shocks&#34;&gt;Global Oil and Gas Markets: Logistics, Quantitative Dynamics, and Geopolitical Shocks&lt;/h1&gt;
 &lt;h2 id=&#34;1-introduction-the-fragile-intersection-of-molecules-and-mathematics&#34;&gt;1. Introduction: The Fragile Intersection of Molecules and Mathematics&lt;/h2&gt;
 &lt;p&gt;The global oil and gas markets represent the most complex, heavily capitalized, and strategically vital commodity networks in the contemporary economic system. Over the past several decades, hydrocarbons have evolved from purely physical commodities traded at arm&amp;rsquo;s length into highly sophisticated financial assets with trading horizons extending over a decade forward.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Generator of an Itô Diffusion</title>
-      <link>http://localhost:1313/posts/generator-of-an-ito-diffusion/</link>
+      <link>http://localhost:39825/posts/generator-of-an-ito-diffusion/</link>
       <pubDate>Wed, 07 Jan 2026 00:00:00 +0530</pubDate>
-      <guid>http://localhost:1313/posts/generator-of-an-ito-diffusion/</guid>
+      <guid>http://localhost:39825/posts/generator-of-an-ito-diffusion/</guid>
+      <description>Master the infinitesimal generator of Itô diffusions—the bridge connecting SDEs, PDEs, and Feynman-Kac formula. From Kolmogorov equations to Black-Scholes PDEs and risk-neutral pricing.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:39825/posts/critical-slowing-down/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:39825/posts/critical-slowing-down/</guid>
+      <description>&lt;h1 id=&#34;pinning-down-the-origins-of-critical-slowing-down&#34;&gt;Pinning down the origins of Critical Slowing Down&lt;/h1&gt;
+&lt;p&gt;To understand Critical Slowing Down (CSD) and the nuanced divide between dynamical and stochastic phase transitions, one must move beyond the &lt;strong&gt;static equilibrium picture&lt;/strong&gt; and examine the &lt;strong&gt;spectral properties&lt;/strong&gt; of the &lt;strong&gt;system&amp;rsquo;s evolution operator&lt;/strong&gt;. At the heart of CSD is the &lt;strong&gt;divergence of the characteristic relaxation time&lt;/strong&gt;, $\tau$, as a system approaches a &lt;strong&gt;second-order (continuous) phase transition&lt;/strong&gt;. The phenomenon is fundamentally a consequence of the &amp;ldquo;flattening&amp;rdquo; of the &lt;strong&gt;thermodynamic potential&lt;/strong&gt;. While static scaling laws describe the divergence of the correlation length $\xi$, dynamical scaling describes how the time scales of the system’s fluctuations couples to that spatial length scale.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A Tour of Functional Itô Calculus ala Dupire</title>
+      <link>http://localhost:39825/posts/functional-ito-calculas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:39825/posts/functional-ito-calculas/</guid>
+      <description>Explore Functional Itô Calculus and Bruno Dupire&amp;#39;s path-dependent framework. Understand functional derivatives and their application to volatility surface modeling and path-dependent options.</description>
+    </item>
+    <item>
+      <title>Secret Bessel Draft</title>
+      <link>http://localhost:39825/posts/runge-kutta/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:39825/posts/runge-kutta/</guid>
+      <description>&lt;p&gt;Content here stays private from site visitors&lt;/p&gt;
+&lt;h1 id=&#34;runge-kutta-method-for-numerical-integration-of-odes&#34;&gt;Runge-Kutta Method for Numerical Integration of ODEs&lt;/h1&gt;
+&lt;p&gt;Consult Numerical Recipes in C&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>What are &#34;functionals&#34; and &#34;functional integrals&#34;?</title>
+      <link>http://localhost:39825/posts/functionals-and-functional-integrals/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:39825/posts/functionals-and-functional-integrals/</guid>
       <description>Master the infinitesimal generator of Itô diffusions—the bridge connecting SDEs, PDEs, and Feynman-Kac formula. From Kolmogorov equations to Black-Scholes PDEs and risk-neutral pricing.</description>
     </item>
   </channel>

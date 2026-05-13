@@ -2,108 +2,147 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:39825/categories/</loc>
     <lastmod>2026-03-26T14:14:38+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/commodities/</loc>
+    <loc>http://localhost:39825/categories/commodities/</loc>
     <lastmod>2026-03-26T14:14:38+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/series/commodities/</loc>
+    <loc>http://localhost:39825/series/commodities/</loc>
     <lastmod>2026-03-26T14:14:38+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/commodities/</loc>
+    <loc>http://localhost:39825/tags/commodities/</loc>
     <lastmod>2026-03-26T14:14:38+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/current-events/</loc>
+    <loc>http://localhost:39825/categories/current-events/</loc>
     <lastmod>2026-03-26T14:14:38+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/energy-derivatives/</loc>
+    <loc>http://localhost:39825/categories/energy-derivatives/</loc>
     <lastmod>2026-03-26T14:14:38+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/geopolitical-shocks/</loc>
+    <loc>http://localhost:39825/tags/geopolitical-shocks/</loc>
     <lastmod>2026-03-26T14:14:38+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/global-oil-and-gas-markets-logistics-dynamics-and-geopolitical-shocks/</loc>
+    <loc>http://localhost:39825/posts/global-oil-and-gas-markets-logistics-dynamics-and-geopolitical-shocks/</loc>
     <lastmod>2026-03-26T14:14:38+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/natural-gas/</loc>
+    <loc>http://localhost:39825/tags/natural-gas/</loc>
     <lastmod>2026-03-26T14:14:38+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/oil/</loc>
+    <loc>http://localhost:39825/tags/oil/</loc>
     <lastmod>2026-03-26T14:14:38+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/petrochemicals/</loc>
+    <loc>http://localhost:39825/tags/petrochemicals/</loc>
     <lastmod>2026-03-26T14:14:38+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>http://localhost:39825/posts/</loc>
     <lastmod>2026-03-26T14:14:38+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/series/</loc>
+    <loc>http://localhost:39825/series/</loc>
     <lastmod>2026-03-26T14:14:38+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/supply-chain-logistics/</loc>
+    <loc>http://localhost:39825/tags/supply-chain-logistics/</loc>
     <lastmod>2026-03-26T14:14:38+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:39825/tags/</loc>
     <lastmod>2026-03-26T14:14:38+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/black-scholes-pde/</loc>
+    <loc>http://localhost:39825/tags/black-scholes-pde/</loc>
     <lastmod>2026-03-06T06:27:16+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/dynkins-formula/</loc>
+    <loc>http://localhost:39825/tags/dynkins-formula/</loc>
     <lastmod>2026-03-06T06:27:16+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/feynman-kac-formula/</loc>
+    <loc>http://localhost:39825/tags/feynman-kac-formula/</loc>
     <lastmod>2026-03-06T06:27:16+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/infinitesimal-generator/</loc>
+    <loc>http://localhost:39825/tags/infinitesimal-generator/</loc>
     <lastmod>2026-03-06T06:27:16+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/it%C3%B4-diffusion/</loc>
+    <loc>http://localhost:39825/tags/it%C3%B4-diffusion/</loc>
     <lastmod>2026-03-06T06:27:16+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/kolmogorov-equations/</loc>
+    <loc>http://localhost:39825/tags/kolmogorov-equations/</loc>
     <lastmod>2026-03-06T06:27:16+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/mathematical-finance/</loc>
+    <loc>http://localhost:39825/categories/mathematical-finance/</loc>
     <lastmod>2026-03-06T06:27:16+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/partial-differential-equations/</loc>
+    <loc>http://localhost:39825/categories/partial-differential-equations/</loc>
     <lastmod>2026-03-06T06:27:16+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/pdes/</loc>
+    <loc>http://localhost:39825/tags/pdes/</loc>
     <lastmod>2026-03-06T06:27:16+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/series/quant-book/</loc>
+    <loc>http://localhost:39825/series/quant-book/</loc>
+    <lastmod>2026-03-07T13:17:43+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:39825/tags/quantitative-finance/</loc>
     <lastmod>2026-03-06T06:27:16+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/quantitative-finance/</loc>
+    <loc>http://localhost:39825/tags/risk-neutral-pricing/</loc>
     <lastmod>2026-03-06T06:27:16+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/risk-neutral-pricing/</loc>
+    <loc>http://localhost:39825/tags/sdes/</loc>
     <lastmod>2026-03-06T06:27:16+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/sdes/</loc>
+    <loc>http://localhost:39825/categories/stochastic-processes/</loc>
     <lastmod>2026-03-06T06:27:16+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/stochastic-processes/</loc>
+    <loc>http://localhost:39825/posts/generator-of-an-ito-diffusion/</loc>
     <lastmod>2026-03-06T06:27:16+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/generator-of-an-ito-diffusion/</loc>
-    <lastmod>2026-03-06T06:27:16+05:30</lastmod>
+    <loc>http://localhost:39825/posts/critical-slowing-down/</loc>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
-    <lastmod>2026-03-06T14:27:31+05:30</lastmod>
+    <loc>http://localhost:39825/posts/functional-ito-calculas/</loc>
+    <lastmod>2026-03-06T06:15:37+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archives/</loc>
+    <loc>http://localhost:39825/about/</loc>
+    <lastmod>2026-03-26T16:29:27+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:39825/archives/</loc>
     <lastmod>2026-01-02T12:16:49+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/credits/</loc>
+    <loc>http://localhost:39825/credits/</loc>
     <lastmod>2026-03-04T08:10:22+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/drafts/</loc>
+    <loc>http://localhost:39825/drafts/</loc>
+    <lastmod>2026-01-18T04:21:15+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:39825/tags/feynman-integral/</loc>
+    <lastmod>2026-03-07T13:17:43+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:39825/tags/functional-derivative/</loc>
+    <lastmod>2026-03-07T13:17:43+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:39825/categories/functional-integrals/</loc>
+    <lastmod>2026-03-07T13:17:43+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:39825/categories/functionals/</loc>
+    <lastmod>2026-03-07T13:17:43+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:39825/drafts/my-ito-draft/</loc>
+    <lastmod>2026-01-18T04:21:15+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:39825/tags/measure-theory/</loc>
+    <lastmod>2026-03-07T13:17:43+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:39825/categories/path-integral/</loc>
+    <lastmod>2026-03-07T13:17:43+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:39825/tags/path-integrals/</loc>
+    <lastmod>2026-03-07T13:17:43+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:39825/</loc>
     <lastmod>2026-03-01T10:36:31+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:39825/posts/runge-kutta/</loc>
+    <lastmod>2026-03-03T12:05:35+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:39825/posts/functionals-and-functional-integrals/</loc>
+    <lastmod>2026-03-07T13:17:43+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:39825/tags/wiener-integral/</loc>
+    <lastmod>2026-03-07T13:17:43+05:30</lastmod>
   </url>
 </urlset>
