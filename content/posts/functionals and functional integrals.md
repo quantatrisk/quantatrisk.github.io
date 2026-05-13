@@ -211,6 +211,42 @@ $$
 \end{equation}
 $$
 
+is called the *variational* (or *functional*) *derivative*.
+
+For short, we will use notation $\delta F [\phi(\tau)]/\delta \phi(t)$ instead of $\delta F [\phi(\tau)]/\delta \phi(t)dt$.
+
+Note that, if we use function $\delta \phi(\tau) = \alpha \delta(\tau)$, where $\delta(\tau)$ is the Dirac delta function, then Eq. (2.1) can be represented in the form of the ordinary derivative
+
+$$
+\frac { \delta F [ \varphi ( \tau ) ] } { \delta \varphi ( t ) } = \lim _ { \alpha \to 0 } \frac { d } { d \alpha } F [ \varphi ( \tau ) + \alpha \delta ( \tau - t ) ].
+$$
+
+The variational derivative of functional $F[\phi(\tau)]$ is again the functional of $\phi (\tau)$, which depends additionally on point $t$ as a parameter. As a result, this variational derivative will have two types of derivatives; one can differentiate it in the ordinary sense with respect to parameter $t$ and in the functional sense with respect to $\phi (\tau)$ at point $\tau = {t}'$ thus obtaining the second variational derivative of the initial functional
+
+$$\frac { \delta ^ { 2 } F [ \varphi ( \tau ) ] } { \delta \varphi ( t ^ { \prime } ) \delta \varphi ( t ) } = \frac { \delta } { \delta \varphi ( t ^ { \prime } ) } \left [ \frac { \delta F [ \varphi ( \tau ) ] } { \delta \varphi ( t ) } \right ] .$$
+
+The second variational derivative will now be the functional of $\phi(\tau)$ dependent on two points $t$ and ${t}'$, and so forth.
+
+---
+
+Determine the variational derivatives of functionals ( a ), ( b ), and ( c ). In the case ( a ), we have
+
+$$\delta F [ \varphi ( \tau ) ] = F [ \varphi ( \tau ) + \delta \varphi ( \tau ) ] - F [ \varphi ( \tau ) ] = \int _ { t - \frac { \Delta \tau } { 2 } } ^ { \Delta \tau } d \tau a ( \tau ) \delta \varphi ( \tau ) .$$
+
+If function $a(t)$ is continuous on segment ∆τ , then, by the average theorem,
+
+$$\delta F [ \varphi ( \tau ) ] = a ( t ^ { \prime } ) \int _ { \Delta \tau } d \tau \delta \varphi ( \tau ) ,$$
+
+where point ${t}'$ belongs to segment $[t-\Delta \tau/2, t + \Delta \tau/2 ] $. Consequently,
+
+$$\frac { \delta F [ \varphi ( \tau ) ] } { \delta \varphi ( t ) } = \lim _ { \Delta \tau \to 0 } a ( t ^ { \prime } ) = a ( t ) .$$
+
+In the case ( b ), we obtain similarly
+
+$$\frac { \delta F [ \varphi ( \tau ) ] } { \delta \varphi ( t ) } = \int _ { t _ { 1 } } ^ { t _ { 2 } } d \tau \left [ B ( \tau , t ) + B ( t , \tau ) \right ] \varphi ( \tau ) \ \left ( t _ { 1 } < t < t _ { 2 } \right ) .$$
+
+Note that function $B(\tau_1, \tau_2)$ can always be assumed a symmetric function of its arguments here.
+
 
 1. First item
 2. Second item
