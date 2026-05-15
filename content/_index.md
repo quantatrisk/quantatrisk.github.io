@@ -11,9 +11,12 @@ math: true  # For LaTeX
 ---
 
 > Applied mathematics is the art of constructing mathematical models of phenomena in nature, engineering and society. In constructing models it is impossible to take into account all the factors which influence the phenomenon; therefore some of the factors should be neglected, and only those factors which are of crucial importance should be left. So we say that every model is based on a certain *idealization* of the phenomenon. In constructing the idealizations the phenomena under study should be considered at ‘intermediate’ times and distances (think of the impressionists!). These distances and times should be sufficiently large for details and features which are of secondary importance to the phenomenon to disappear. At the same time they should be sufficiently small to reveal features of the phenomena which are of basic value. We say therefore that every mathematical model is based on ‘intermediate asymptotics’.
-> - **Grigory Isaakovich Barenblatt**
+> — **Grigory Isaakovich Barenblatt**
 
 ---
+
+>At any time there is only a thin layer separating what is trivial from what is impossibly difficult. It is in that layer that discoveries are made...
+> — **Andrei N. Kolmogorov**
 
 > nāstyacauraḥ kavijanaḥ. There is no poet who is not a thief. 
 > — **Rajashekhara**
