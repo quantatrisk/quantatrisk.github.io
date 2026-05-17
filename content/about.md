@@ -20,16 +20,39 @@ The project’s architecture is centered on long-form, pedagogical monographs th
 The ultimate vision for this platform is to evolve into an authoritative knowledge base for the quantitative finance community. If you are interested in contributing research-grade articles or collaborative technical insights to help expand this repository, I invite you to reach out via the **Contact Form** below. Thanks! and Spread the Word.
 
 ---
-## About the Author
+## Authors and Contributors
 
 <div style="display: flex; align-items: center; gap: 2rem; margin-bottom: 2rem;">
-  <img src="/images/pinaki.jpg" alt="Dr. Pinaki Bhattacharyya" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover;">
+  <div style="text-align: center; flex-shrink: 0;">
+    <img src="/images/pinaki.jpg" alt="Dr. Pinaki Bhattacharyya" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover;">
+    <div style="margin-top: 0.5rem; font-weight: bold; font-size: 0.95rem;">Dr. Pinaki Bhattacharyya</div>
+  </div>
   <div>
-    <p>Welcome to Dr. Pinaki Bhattacharyya's Quant Finance focussed blog. He holds a PhD in the field of Soft Condensed Matter Theory, Polymer Physics, Nonequilibrium Statistical Mechanics, Complex Fluids and Theoretical Microrheology. Currently he is working in Quantitative Finance, Econophysics, Complex Systems and Model Risk Management domain.</p>
+    <p>He holds a PhD in the field of Soft Condensed Matter Theory, Polymer Physics, Nonequilibrium Statistical Mechanics, Complex Fluids and Theoretical Microrheology. Currently he is working in Quantitative Finance, Econophysics, Complex Systems and Model Risk Management domain.</p>
   </div>
 </div>
 
-### Connect with Me
+<div style="display: flex; align-items: center; gap: 2rem; margin-bottom: 2rem;">
+  <div style="text-align: center; flex-shrink: 0;">
+    <img src="/images/soumya.png" alt="Dr. Soumyajyoti Banerjee" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; background-color: #eaeaea;">
+    <div style="margin-top: 0.5rem; font-weight: bold; font-size: 0.95rem;">Dr. Soumyajyoti Banerjee</div>
+  </div>
+  <div>
+    <p>Dr. Soumyajyoti Banerjee bridges the gap between industry and academia, fostering innovation and nurturing emerging engineering talent. His specialization lies in Graph Technology, Knowledge Graph and Multi-Agentic AI, where he mentor teams on cutting-edge solutions aligned with Tech for Good principles and the ethos of Open-Source Software Development and Open Science. He focuses on cultivating a culture of innovation, guiding engineers to thrive in a rapidly evolving technological landscape, and enabling impactful academic-industry collaborations and research that contribute to sustainable and ethical tech development. Previously, his focus was on graph technology applications to the climate domain, leveraging his experience from the Neo4j Inc.</p>
+  </div>
+</div>
+
+<div style="display: flex; align-items: center; gap: 2rem; margin-bottom: 2rem;">
+  <div style="text-align: center; flex-shrink: 0;">
+    <img src="/images/shashank.jpg" alt="Dr. Shashank Kumar Roy" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; background-color: #eaeaea;">
+    <div style="margin-top: 0.5rem; font-weight: bold; font-size: 0.95rem;">Dr. Shashank Kumar Roy</div>
+  </div>
+  <div>
+    <p>Dr. Shashank Kumar Roy is a physicist working at the intersection of AI and Physics with a focus on data assimilation. He obtained his PhD in Physics at the International Centre for Theoretical Sciences – Tata Institute of Fundamental Research, focusing on dynamical instability and ensemble Kalman filtering. His scientific interests span dynamical systems, geosciences, and machine learning and quantitative finance, where complex scientific problems of estimation, prediction, and uncertainty quantification arise. webpage: https://shashankkroy.github.io/</p>
+  </div>
+</div>
+
+### Connect with Us
 
 <div class="social-icons" style="display: flex; flex-wrap: wrap; gap: 1.5rem; margin-bottom: 2rem;">
   <a href="mailto:pinaki.iisc@fmitech.net" target="_blank" rel="noopener noreferrer" title="Email" style="color: var(--primary);"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg></a>
