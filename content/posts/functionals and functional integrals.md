@@ -2,7 +2,7 @@
 doi: 10.yourblog20260304291
 title: 'What are "functionals" and "functional integrals"?'
 subtitle: 'Learn why do they really matter in finance'
-draft: false
+draft: true
 
 # Primary categorization (1-3 max)
 categories:
