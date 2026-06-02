@@ -9,10 +9,17 @@
       <url>http://localhost:1313/images/favicon.svg</url>
       <link>http://localhost:1313/images/favicon.svg</link>
     </image>
-    <generator>Hugo -- 0.157.0</generator>
+    <generator>Hugo -- 0.147.1</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Mar 2026 14:14:38 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2026 08:55:06 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Early Warning Signals for Abrupt Changes in Complex Systems and Financial Markets</title>
+      <link>http://localhost:1313/posts/ews/</link>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ews/</guid>
+      <description>Do Complex Systems and Financial Markets slow down and behave in similar fashion near a tipping point?</description>
+    </item>
     <item>
       <title>Global Oil and Gas Markets: Logistics, Dynamics, and Geopolitical Shocks</title>
       <link>http://localhost:1313/posts/global-oil-and-gas-markets-logistics-dynamics-and-geopolitical-shocks/</link>

@@ -9,10 +9,45 @@
       <url>http://localhost:1313/images/favicon.svg</url>
       <link>http://localhost:1313/images/favicon.svg</link>
     </image>
-    <generator>Hugo -- 0.157.0</generator>
+    <generator>Hugo -- 0.147.1</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Mar 2026 14:14:38 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2026 08:55:06 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Complex Systems</title>
+      <link>http://localhost:1313/tags/complex-systems/</link>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/complex-systems/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Critical Transitions</title>
+      <link>http://localhost:1313/tags/critical-transitions/</link>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/critical-transitions/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Early Warning Signals</title>
+      <link>http://localhost:1313/tags/early-warning-signals/</link>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/early-warning-signals/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Financial Markets</title>
+      <link>http://localhost:1313/tags/financial-markets/</link>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/financial-markets/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Quantitative Finance</title>
+      <link>http://localhost:1313/tags/quantitative-finance/</link>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/quantitative-finance/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Commodities</title>
       <link>http://localhost:1313/tags/commodities/</link>
@@ -102,13 +137,6 @@
       <link>http://localhost:1313/tags/pdes/</link>
       <pubDate>Wed, 07 Jan 2026 00:00:00 +0530</pubDate>
       <guid>http://localhost:1313/tags/pdes/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Quantitative Finance</title>
-      <link>http://localhost:1313/tags/quantitative-finance/</link>
-      <pubDate>Wed, 07 Jan 2026 00:00:00 +0530</pubDate>
-      <guid>http://localhost:1313/tags/quantitative-finance/</guid>
       <description></description>
     </item>
     <item>

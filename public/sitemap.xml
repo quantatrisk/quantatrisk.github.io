@@ -3,7 +3,34 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-03-26T14:14:38+05:30</lastmod>
+    <lastmod>2026-05-13T08:55:06+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/complex-systems/</loc>
+    <lastmod>2026-05-13T08:55:06+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/critical-transitions/</loc>
+    <lastmod>2026-05-13T08:55:06+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/early-warning-signals/</loc>
+    <lastmod>2026-05-13T08:55:06+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/ews/</loc>
+    <lastmod>2026-05-13T08:55:06+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/explainer/</loc>
+    <lastmod>2026-05-13T08:55:06+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/financial-markets/</loc>
+    <lastmod>2026-05-13T08:55:06+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2026-05-13T08:55:06+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/quantitative-finance/</loc>
+    <lastmod>2026-05-13T08:55:06+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-05-13T08:55:06+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/commodities/</loc>
     <lastmod>2026-03-26T14:14:38+05:30</lastmod>
@@ -35,16 +62,10 @@
     <loc>http://localhost:1313/tags/petrochemicals/</loc>
     <lastmod>2026-03-26T14:14:38+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2026-03-26T14:14:38+05:30</lastmod>
-  </url><url>
     <loc>http://localhost:1313/series/</loc>
     <lastmod>2026-03-26T14:14:38+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/supply-chain-logistics/</loc>
-    <lastmod>2026-03-26T14:14:38+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2026-03-26T14:14:38+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/black-scholes-pde/</loc>
@@ -77,9 +98,6 @@
     <loc>http://localhost:1313/series/quant-book/</loc>
     <lastmod>2026-03-06T06:27:16+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/quantitative-finance/</loc>
-    <lastmod>2026-03-06T06:27:16+05:30</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/risk-neutral-pricing/</loc>
     <lastmod>2026-03-06T06:27:16+05:30</lastmod>
   </url><url>
@@ -93,7 +111,7 @@
     <lastmod>2026-03-06T06:27:16+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/about/</loc>
-    <lastmod>2026-03-06T14:27:31+05:30</lastmod>
+    <lastmod>2026-03-26T16:29:27+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/archives/</loc>
     <lastmod>2026-01-02T12:16:49+05:30</lastmod>
@@ -102,6 +120,7 @@
     <lastmod>2026-03-04T08:10:22+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/drafts/</loc>
+    <lastmod>2026-01-18T04:21:15+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
     <lastmod>2026-03-01T10:36:31+05:30</lastmod>
